@@ -28,10 +28,10 @@ while True:
 				exit(0)
 		else:
 			nome =  raw_input()
-			cargo =  raw_input()
-			salario =  raw_input()
+			sexo =  raw_input()
+			idade =  raw_input()
 
-			msg = nome + ':' + cargo + ':' + salario
+			msg = (nome + ':' + sexo + ':' + idade)
 			server.send(msg)
 
 
