@@ -1,7 +1,8 @@
 import socket
 import os
 import sys
-from thread import *
+from multiprocessing.pool import ThreadPool
+
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
@@ -19,7 +20,7 @@ server.listen(100)
 clientes = []
 
 ''' Funcao de broadcast:  Envia a mensagem para todo os clientes constados no servidor '''
-def comunicacao(mensagem, conexao):
+def broadcast(mensagem, conexao):
 	for i in clientes:
 		''' Evitar que o cliente mande uma mensagem para si mesmo '''
 		if i != conexao:
@@ -34,6 +35,23 @@ def comunicacao(mensagem, conexao):
 
 				if i in clientes:
 					clientes.remove(i)
+
+def clientThreadMain():
+	''' Cria-se 20 threads pre-alocadas'''
+	thread = ThreadPool(20)
+
+	''' Laco principal do servidor '''
+	while True:
+
+		conexao, endereco = server.accept()
+	
+		print endereco[0] + " conectou!"
+
+		''' Quando um cliente se conecta, eh adicionado a uma lista de clientes (usado para o broadcast) '''
+		clientes.append(conexao)
+
+		''' Executa a thread em um cliente de forma assincrona '''
+		thread.apply_async(newClient, (conexao, endereco))
 
 
 def newClient(conexao, endereco):
@@ -56,7 +74,7 @@ def newClient(conexao, endereco):
 			mensagemEnvio = "[" + endereco[0] + "] " + mensagem
 
 			''' Enviar mensagem para outros clientes '''
-			comunicacao(mensagemEnvio, conexao)
+			broadcast(mensagemEnvio, conexao)
 
 		else:
 
@@ -66,18 +84,9 @@ def newClient(conexao, endereco):
 				clientes.remove(conexao)
 
 		''' No terminal do servidor aparecera as mensagens inseridas '''
-
-		
-
-while True:
-
-	conexao, endereco = server.accept()
 	
-	print endereco[0] + " conectou!"
 
-	clientes.append(conexao)
-
-	start_new_thread(newClient, (conexao, endereco))
+clientThreadMain()
 
 conexao.close()
 server.close()

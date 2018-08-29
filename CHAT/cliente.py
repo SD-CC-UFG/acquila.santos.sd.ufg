@@ -2,8 +2,9 @@ import socket
 import os
 import sys
 import select
+from threading import Thread
 
-server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+cliente = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 if len(sys.argv) != 3:
 	print "Numero de argumentos invalido"
@@ -11,22 +12,28 @@ if len(sys.argv) != 3:
 	exit()
 IP = str(sys.argv[1])
 PORT = int(sys.argv[2])
-server.connect((IP , PORT))
+cliente.connect((IP , PORT))
 
-while True:
-	sockets = [sys.stdin , server]
-	
-	legivel_sockets, gravar_socket, erro_socket = select.select(sockets,[],[])
+def enviar():
+	'''Funcao de envio de dados '''
+	while True:
+		mensagem =  sys.stdin.readline()
+		cliente.send(mensagem)
+		sys.stdout.write("[Voce] ")
+		sys.stdout.write(mensagem)
+		sys.stdout.flush()
 
-	for s in legivel_sockets:
-		if s == server:
-			mensagem = s.recv(1024)
-			print mensagem
-		else:
-			mensagem =  sys.stdin.readline()
-			server.send(mensagem)
-			sys.stdout.write("[Voce] ")
-			sys.stdout.write(mensagem)
-			sys.stdout.flush()
+def receber():
+	'''Funcao de recebimento de dados '''
+	while True:
+		mensagem = cliente.recv(1024)
+		print mensagem
 
-server.close()
+''' Thread para envio de dados '''
+thread1 = Thread(target=enviar)
+''' Thread para receber dados '''
+thread2 = Thread(target=receber)
+
+thread1.start()
+thread2.start()
+
