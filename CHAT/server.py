@@ -51,7 +51,7 @@ def clientThreadMain():
 		clientes.append(conexao)
 
 		''' Executa a thread em um cliente de forma assincrona '''
-		thread.apply_async(newClient, (conexao, endereco))
+		thread.apply(newClient, (conexao, endereco))
 
 
 def newClient(conexao, endereco):
