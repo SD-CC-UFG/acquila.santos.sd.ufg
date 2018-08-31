@@ -1,7 +1,7 @@
 import socket
 import os
 import sys
-from multiprocessing.pool import ThreadPool
+from threadPool import ThreadPool
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
@@ -39,7 +39,6 @@ def broadcast(mensagem, conexao):
 def clientThreadMain():
 	''' Cria-se 20 threads pre-alocadas'''
 	thread = ThreadPool(20)
-
 	''' Laco principal do servidor '''
 	while True:
 
@@ -49,9 +48,7 @@ def clientThreadMain():
 
 		''' Quando um cliente se conecta, eh adicionado a uma lista de clientes (usado para o broadcast) '''
 		clientes.append(conexao)
-
-		''' Executa a thread em um cliente de forma assincrona '''
-		thread.apply(newClient, (conexao, endereco))
+		thread.insert_job(newClient, conexao, endereco)
 
 
 def newClient(conexao, endereco):
