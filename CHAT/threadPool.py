@@ -13,7 +13,7 @@ class Worker(threading.Thread):
 	def start(self):
 		self.executing = 1
 		super(Worker, self).start()
-	''' Override do metodo start da biblioteca threading '''
+	''' Override do metodo run da biblioteca threading '''
 	def run(self):
 
 		''' Executar o laco enquanto a thread esta em execucao '''
