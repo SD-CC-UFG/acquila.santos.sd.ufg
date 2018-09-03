@@ -87,7 +87,3 @@ clientThreadMain()
 
 conexao.close()
 server.close()
-
-
-
-

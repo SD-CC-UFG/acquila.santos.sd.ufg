@@ -36,4 +36,3 @@ thread2 = Thread(target=receber)
 
 thread1.start()
 thread2.start()
-

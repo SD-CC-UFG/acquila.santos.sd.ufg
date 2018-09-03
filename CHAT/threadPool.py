@@ -14,12 +14,6 @@ class Worker(threading.Thread):
 	def start(self):
 		self.executing = 1
 		super(Worker, self).start()
-<<<<<<< HEAD
-	''' Override do metodo start da biblioteca threading '''
-=======
-	''' Override do metodo run da biblioteca threading '''
-	def run(self):
->>>>>>> 98d3160b03766235368e4bcb890903b53dbd011a
 
 	def run(self):
 		''' Executar o laco enquanto a thread esta em execucao '''
@@ -59,4 +53,3 @@ class ThreadPool(object):
 
 	def insert_job(self, func, *args, **kwargs):
 		self.jobs.put((func, args, kwargs))
-			
