@@ -4,9 +4,10 @@ from Queue import Queue, Empty
 
 class Worker(threading.Thread):
 
-	def __init__(self, pool):
+	def __init__(self, jobs, results):
 		super(Worker, self).__init__()
-		self.pool = pool
+		self.jobs = jobs
+		self.results = results
 		self.executing = 0
 
 	''' Override do metodo start da biblioteca threading '''
@@ -14,13 +15,13 @@ class Worker(threading.Thread):
 		self.executing = 1
 		super(Worker, self).start()
 	''' Override do metodo start da biblioteca threading '''
-	def run(self):
 
+	def run(self):
 		''' Executar o laco enquanto a thread esta em execucao '''
 		while self.executing == 1:
 			try:
 				''' Retorna um item da fila quando ele estiver imediatamente disponivel '''
-				func, args, kwargs = self.pool.jobs.get(block=False)
+				func, args, kwargs = self.jobs.get(block=False)
 			except Empty:
 				continue
 			else:
@@ -28,7 +29,7 @@ class Worker(threading.Thread):
 					''' Executa o processo '''
 					result = func(*args, **kwargs)
 					''' Coloca o resultado da execucao na fila results '''
-					self.pool.results.put(result)  
+					self.results.put(result)  
 				except Exception, e:
 					self.executing = 0
 					raise e
@@ -46,7 +47,7 @@ class ThreadPool(object):
 	def start(self):
 		''' Adicionar as threads na lista de threads e inicia-las de forma apropriada em Worker '''
 		for _ in range(self.nThread):
-			self.thread_list.append(Worker(self))
+			self.thread_list.append(Worker(self.jobs, self.results))
 		''' Iniciar os processos '''
 		for j in self.thread_list:
 			j.start()	
