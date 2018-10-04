@@ -52,4 +52,4 @@ class ThreadPool(object):
 			j.start()	
 
 	def insert_job(self, func, *args, **kwargs):
-		self.jobs.put((func, args, kwargs))
+	s	elf.jobs.put((func, args, kwargs))
