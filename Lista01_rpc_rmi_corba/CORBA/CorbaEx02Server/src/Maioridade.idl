@@ -1,0 +1,10 @@
+//ACQUILA SANTOS ROCHA e JULIANA DE MELO TEIXEIRA
+module MaioridadeApp
+{
+  interface Maioridade
+  {
+    long maioridadeF(in long idade);
+    long maioridadeM(in long idade);
+    oneway void shutdown();
+    };
+};

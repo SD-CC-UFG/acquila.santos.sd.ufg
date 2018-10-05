@@ -1,0 +1,9 @@
+//ACQUILA SANTOS ROCHA e JULIANA DE MELO TEIXEIRA
+module AprovadoApp
+{
+  interface Aprovado
+  {
+    long aprovar(in double n1, in double n2, in double n3);
+    oneway void shutdown();
+    };
+};

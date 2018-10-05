@@ -1,0 +1,9 @@
+//ACQUILA SANTOS ROCHA e JULIANA DE MELO TEIXEIRA
+module nadadorApp
+{
+  interface nadador
+  {
+    string pesoF(in long idade);
+    oneway void shutdown();
+    };
+};

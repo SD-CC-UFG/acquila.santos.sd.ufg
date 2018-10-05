@@ -1,0 +1,9 @@
+module SalarioApp
+{
+  interface Salario
+  {
+    double novoSal1(in double sal);
+    double novoSal2(in double sal);
+    oneway void shutdown();
+    };
+};

@@ -1,0 +1,10 @@
+//ACQUILA SANTOS ROCHA e JULIANA DE MELO TEIXEIRA
+module pesoApp
+{
+  interface peso
+  {
+    double pesoF(in double altura);
+    double pesoM(in double altura);
+    oneway void shutdown();
+    };
+};
