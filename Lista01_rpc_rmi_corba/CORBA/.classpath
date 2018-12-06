@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="CorbaEx01Client/src"/>
+	<classpathentry kind="src" path="CorbaEx01Server/src"/>
+	<classpathentry kind="src" path="CorbaEx02Client/src"/>
+	<classpathentry kind="src" path="CorbaEx02Server/src"/>
+	<classpathentry kind="src" path="CorbaEx03Client/src"/>
+	<classpathentry kind="src" path="CorbaEx03Server/src"/>
+	<classpathentry kind="src" path="CorbaEx04Client/src"/>
+	<classpathentry kind="src" path="CorbaEx04Server/src"/>
+	<classpathentry kind="src" path="CorbaEx05Client/src"/>
+	<classpathentry kind="src" path="CorbaEx05Server/src"/>
+	<classpathentry kind="output" path="CorbaEx01Client/bin"/>
+</classpath>
