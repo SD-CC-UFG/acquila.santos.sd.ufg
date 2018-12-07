@@ -1,0 +1,247 @@
+21:13:27,131 proxy INFO Requisicao de ('127.0.0.1', 54168) para http://inf.ufg.br/
+21:13:27,131 proxy INFO Cache MISS: http://inf.ufg.br/
+21:13:28,540 proxy DEBUG 39868 bytes armazenados - capacidade atual: 9960131
+21:13:29,5 proxy INFO Requisicao de ('127.0.0.1', 54174) para http://inf.ufg.br/modules/node/node.css?Q
+21:13:29,5 proxy INFO Cache MISS: http://inf.ufg.br/modules/node/node.css?Q
+21:13:29,18 proxy INFO Requisicao de ('127.0.0.1', 54184) para http://inf.ufg.br/modules/system/system-menus.css?Q
+21:13:29,19 proxy INFO Cache MISS: http://inf.ufg.br/modules/system/system-menus.css?Q
+21:13:29,18 proxy INFO Requisicao de ('127.0.0.1', 54186) para http://inf.ufg.br/modules/system/system.css?Q
+21:13:29,21 proxy INFO Cache MISS: http://inf.ufg.br/modules/system/system.css?Q
+21:13:29,21 proxy INFO Requisicao de ('127.0.0.1', 54188) para http://inf.ufg.br/modules/system/defaults.css?Q
+21:13:29,22 proxy INFO Cache MISS: http://inf.ufg.br/modules/system/defaults.css?Q
+21:13:29,72 proxy INFO Requisicao de ('127.0.0.1', 54198) para http://inf.ufg.br/sites/all/modules/ctools/css/ctools.css?Q
+21:13:29,73 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/modules/ctools/css/ctools.css?Q
+21:13:29,127 proxy INFO Requisicao de ('127.0.0.1', 54204) para http://inf.ufg.br/sites/all/modules/filefield-backup/filefield.css?Q
+21:13:29,127 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/modules/filefield-backup/filefield.css?Q
+21:13:29,184 proxy INFO Requisicao de ('127.0.0.1', 54210) para http://inf.ufg.br/sites/all/modules/views/css/views.css?Q
+21:13:29,185 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/modules/views/css/views.css?Q
+21:13:29,207 proxy INFO Requisicao de ('127.0.0.1', 54216) para http://inf.ufg.br/sites/all/libraries/superfish/jquery.hoverIntent.minified.js?Q
+21:13:29,208 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/libraries/superfish/jquery.hoverIntent.minified.js?Q
+21:13:29,249 proxy INFO Requisicao de ('127.0.0.1', 54222) para http://inf.ufg.br/sites/all/modules/superfish/superfish.js?Q
+21:13:29,250 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/modules/superfish/superfish.js?Q
+21:13:29,263 proxy INFO Requisicao de ('127.0.0.1', 54232) para http://inf.ufg.br/sites/all/modules/text_resize/text_resize.js?Q
+21:13:29,264 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/modules/text_resize/text_resize.js?Q
+21:13:29,264 proxy INFO Requisicao de ('127.0.0.1', 54228) para http://inf.ufg.br/sites/all/modules/text_resize/jquery.cookie.js?Q
+21:13:29,264 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/modules/text_resize/jquery.cookie.js?Q
+21:13:44,219 proxy DEBUG 1071 bytes armazenados - capacidade atual: 9957814
+21:13:44,219 proxy DEBUG 10339 bytes armazenados - capacidade atual: 9947475
+21:13:44,220 proxy DEBUG 1059 bytes armazenados - capacidade atual: 9946416
+21:13:44,219 proxy DEBUG 1246 bytes armazenados - capacidade atual: 9958885
+21:13:44,268 proxy DEBUG 885 bytes armazenados - capacidade atual: 9945531
+21:13:44,269 proxy DEBUG 1613 bytes armazenados - capacidade atual: 9943918
+21:13:44,331 proxy DEBUG 2144 bytes armazenados - capacidade atual: 9941774
+21:13:44,405 proxy DEBUG 5455 bytes armazenados - capacidade atual: 9936319
+21:13:44,408 proxy DEBUG 1851 bytes armazenados - capacidade atual: 9934468
+21:13:45,242 proxy DEBUG 1639 bytes armazenados - capacidade atual: 9932829
+21:13:46,267 proxy DEBUG 4635 bytes armazenados - capacidade atual: 9928194
+21:13:46,275 proxy INFO Requisicao de ('127.0.0.1', 54242) para http://inf.ufg.br/sites/default/files/favicon.ico
+21:13:46,278 proxy INFO Cache MISS: http://inf.ufg.br/sites/default/files/favicon.ico
+21:15:03,494 proxy INFO Requisicao de ('127.0.0.1', 54254) para http://inf.ufg.br/
+21:15:03,494 proxy INFO Cache MISS: http://inf.ufg.br/
+21:15:04,666 proxy DEBUG 39868 bytes armazenados - capacidade atual: 9960131
+21:15:05,171 proxy INFO Requisicao de ('127.0.0.1', 54260) para http://inf.ufg.br/modules/node/node.css?Q
+21:15:05,183 proxy INFO Cache MISS: http://inf.ufg.br/modules/node/node.css?Q
+21:15:05,184 proxy INFO Requisicao de ('127.0.0.1', 54268) para http://inf.ufg.br/modules/system/defaults.css?Q
+21:15:05,188 proxy INFO Cache MISS: http://inf.ufg.br/modules/system/defaults.css?Q
+21:15:05,189 proxy INFO Requisicao de ('127.0.0.1', 54266) para http://inf.ufg.br/modules/system/system.css?Q
+21:15:05,189 proxy INFO Cache MISS: http://inf.ufg.br/modules/system/system.css?Q
+21:15:05,234 proxy INFO Requisicao de ('127.0.0.1', 54278) para http://inf.ufg.br/modules/system/system-menus.css?Q
+21:15:05,237 proxy INFO Cache MISS: http://inf.ufg.br/modules/system/system-menus.css?Q
+21:15:05,255 proxy INFO Requisicao de ('127.0.0.1', 54284) para http://inf.ufg.br/sites/all/modules/ctools/css/ctools.css?Q
+21:15:05,255 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/modules/ctools/css/ctools.css?Q
+21:15:05,305 proxy INFO Requisicao de ('127.0.0.1', 54292) para http://inf.ufg.br/sites/all/modules/filefield-backup/filefield.css?Q
+21:15:05,307 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/modules/filefield-backup/filefield.css?Q
+21:15:05,317 proxy INFO Requisicao de ('127.0.0.1', 54294) para http://inf.ufg.br/sites/all/modules/views/css/views.css?Q
+21:15:05,319 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/modules/views/css/views.css?Q
+21:15:05,399 proxy INFO Requisicao de ('127.0.0.1', 54302) para http://inf.ufg.br/sites/all/libraries/superfish/jquery.hoverIntent.minified.js?Q
+21:15:05,399 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/libraries/superfish/jquery.hoverIntent.minified.js?Q
+21:15:05,434 proxy INFO Requisicao de ('127.0.0.1', 54308) para http://inf.ufg.br/sites/all/modules/superfish/superfish.js?Q
+21:15:05,435 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/modules/superfish/superfish.js?Q
+21:15:05,450 proxy INFO Requisicao de ('127.0.0.1', 54314) para http://inf.ufg.br/sites/all/modules/text_resize/jquery.cookie.js?Q
+21:15:05,450 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/modules/text_resize/jquery.cookie.js?Q
+21:15:05,523 proxy INFO Requisicao de ('127.0.0.1', 54320) para http://inf.ufg.br/sites/all/modules/text_resize/text_resize.js?Q
+21:15:05,524 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/modules/text_resize/text_resize.js?Q
+21:15:20,370 proxy DEBUG 1059 bytes armazenados - capacidade atual: 9959072
+21:15:20,371 proxy DEBUG 10339 bytes armazenados - capacidade atual: 9948733
+21:15:20,372 proxy DEBUG 1071 bytes armazenados - capacidade atual: 9947662
+21:15:20,422 proxy DEBUG 885 bytes armazenados - capacidade atual: 9946777
+21:15:20,427 proxy DEBUG 1246 bytes armazenados - capacidade atual: 9945531
+21:15:20,439 proxy DEBUG 1613 bytes armazenados - capacidade atual: 9943918
+21:15:20,457 proxy DEBUG 2144 bytes armazenados - capacidade atual: 9941774
+21:15:20,547 proxy DEBUG 1851 bytes armazenados - capacidade atual: 9939923
+21:15:20,565 proxy DEBUG 1639 bytes armazenados - capacidade atual: 9938284
+21:15:20,589 proxy DEBUG 4635 bytes armazenados - capacidade atual: 9933649
+21:15:21,394 proxy DEBUG 5455 bytes armazenados - capacidade atual: 9928194
+21:15:21,403 proxy INFO Requisicao de ('127.0.0.1', 54326) para http://inf.ufg.br/sites/default/files/favicon.ico
+21:15:21,404 proxy INFO Cache MISS: http://inf.ufg.br/sites/default/files/favicon.ico
+21:15:36,757 proxy DEBUG 1723 bytes armazenados - capacidade atual: 9926471
+21:15:55,344 proxy INFO Requisicao de ('127.0.0.1', 54344) para http://inf.ufg.br/
+21:15:55,344 proxy INFO Cache HIT: http://inf.ufg.br/
+21:15:55,784 proxy INFO Requisicao de ('127.0.0.1', 54348) para http://inf.ufg.br/modules/poll/poll.css?Q
+21:15:55,784 proxy INFO Cache MISS: http://inf.ufg.br/modules/poll/poll.css?Q
+21:15:55,789 proxy INFO Requisicao de ('127.0.0.1', 54382) para http://inf.ufg.br/sites/all/modules/cck/theme/content-module.css?Q
+21:15:55,799 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/modules/cck/theme/content-module.css?Q
+21:15:55,800 proxy INFO Requisicao de ('127.0.0.1', 54402) para http://inf.ufg.br/sites/default/files/color/pixture_reloaded-d6561a3e/style.css?Q
+21:15:55,800 proxy INFO Cache MISS: http://inf.ufg.br/sites/default/files/color/pixture_reloaded-d6561a3e/style.css?Q
+21:15:55,789 proxy INFO Requisicao de ('127.0.0.1', 54392) para http://inf.ufg.br/sites/all/modules/date/date.css?Q
+21:15:55,800 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/modules/date/date.css?Q
+21:15:55,790 proxy INFO Requisicao de ('127.0.0.1', 54404) para http://inf.ufg.br/modules/node/node.css?Q
+21:15:55,801 proxy INFO Cache HIT: http://inf.ufg.br/modules/node/node.css?Q
+21:15:55,799 proxy INFO Requisicao de ('127.0.0.1', 54412) para http://inf.ufg.br/sites/all/libraries/superfish/css/superfish-navbar.css?Q
+21:15:55,802 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/libraries/superfish/css/superfish-navbar.css?Q
+21:15:55,803 proxy INFO Requisicao de ('127.0.0.1', 54420) para http://inf.ufg.br/sites/all/libraries/superfish/css/superfish-vertical.css?Q
+21:15:55,803 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/libraries/superfish/css/superfish-vertical.css?Q
+21:15:55,804 proxy INFO Requisicao de ('127.0.0.1', 54422) para http://inf.ufg.br/sites/all/modules/cck/modules/fieldgroup/fieldgroup.css?Q
+21:15:55,804 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/modules/cck/modules/fieldgroup/fieldgroup.css?Q
+21:15:55,805 proxy INFO Requisicao de ('127.0.0.1', 54394) para http://inf.ufg.br/sites/all/modules/ckeditor/ckeditor.css?Q
+21:15:55,806 proxy INFO Requisicao de ('127.0.0.1', 54416) para http://inf.ufg.br/sites/all/libraries/superfish/css/superfish.css?Q
+21:15:55,806 proxy INFO Requisicao de ('127.0.0.1', 54414) para http://inf.ufg.br/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?Q
+21:15:55,807 proxy INFO Requisicao de ('127.0.0.1', 54374) para http://inf.ufg.br/modules/user/user.css?Q
+21:15:55,814 proxy INFO Cache MISS: http://inf.ufg.br/modules/user/user.css?Q
+21:15:55,809 proxy INFO Requisicao de ('127.0.0.1', 54410) para http://inf.ufg.br/files/languages/pt-br_5db5dd4e3bd708e50332dac22750b6f6.js?Q
+21:15:55,815 proxy INFO Cache MISS: http://inf.ufg.br/files/languages/pt-br_5db5dd4e3bd708e50332dac22750b6f6.js?Q
+21:15:55,809 proxy INFO Requisicao de ('127.0.0.1', 54408) para http://inf.ufg.br/themes/pixture_reloaded/css/estilos-inf.css
+21:15:55,815 proxy INFO Cache MISS: http://inf.ufg.br/themes/pixture_reloaded/css/estilos-inf.css
+21:15:55,814 proxy INFO Requisicao de ('127.0.0.1', 54424) para http://inf.ufg.br/themes/pixture_reloaded/layout.css?Q
+21:15:55,816 proxy INFO Cache MISS: http://inf.ufg.br/themes/pixture_reloaded/layout.css?Q
+21:15:55,817 proxy INFO Requisicao de ('127.0.0.1', 54470) para http://inf.ufg.br/themes/pixture_reloaded/barragoverno/barra_do_governo_ajustes.css
+21:15:55,818 proxy INFO Cache MISS: http://inf.ufg.br/themes/pixture_reloaded/barragoverno/barra_do_governo_ajustes.css
+21:15:55,808 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/modules/ckeditor/ckeditor.css?Q
+21:15:55,812 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/libraries/superfish/css/superfish.css?Q
+21:15:55,816 proxy INFO Requisicao de ('127.0.0.1', 54460) para http://inf.ufg.br/sites/all/libraries/superfish/supersubs.js?Q
+21:15:55,820 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/libraries/superfish/supersubs.js?Q
+21:15:55,817 proxy INFO Requisicao de ('127.0.0.1', 54426) para http://inf.ufg.br/sites/all/modules/jquery_update/replace/jquery.min.js?Q
+21:15:55,813 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?Q
+21:15:55,812 proxy INFO Requisicao de ('127.0.0.1', 54418) para http://inf.ufg.br/sites/all/modules/text_resize/text_resize.css?Q
+21:15:55,823 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/modules/text_resize/text_resize.css?Q
+21:15:55,815 proxy INFO Requisicao de ('127.0.0.1', 54466) para http://inf.ufg.br/sites/all/libraries/superfish/supposition.js?Q
+21:15:55,826 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/libraries/superfish/supposition.js?Q
+21:15:55,821 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/modules/jquery_update/replace/jquery.min.js?Q
+21:15:55,823 proxy INFO Requisicao de ('127.0.0.1', 54406) para http://inf.ufg.br/sites/all/modules/date/date_popup/themes/datepicker.css?Q
+21:15:55,823 proxy INFO Requisicao de ('127.0.0.1', 54482) para http://inf.ufg.br/sites/all/libraries/superfish/sftouchscreen.js?Q
+21:15:55,829 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/libraries/superfish/sftouchscreen.js?Q
+21:15:55,823 proxy INFO Requisicao de ('127.0.0.1', 54480) para http://inf.ufg.br/modules/system/system-menus.css?Q
+21:15:55,824 proxy INFO Requisicao de ('127.0.0.1', 54484) para http://inf.ufg.br/themes/pixture_reloaded/js/browserdetect.js?Q
+21:15:55,831 proxy INFO Cache MISS: http://inf.ufg.br/themes/pixture_reloaded/js/browserdetect.js?Q
+21:15:55,832 proxy INFO Cache HIT: http://inf.ufg.br/modules/system/system-menus.css?Q
+21:15:55,824 proxy INFO Requisicao de ('127.0.0.1', 54472) para http://inf.ufg.br/themes/pixture_reloaded/js/linktitles.js?Q
+21:15:55,832 proxy INFO Cache MISS: http://inf.ufg.br/themes/pixture_reloaded/js/linktitles.js?Q
+21:15:55,828 proxy INFO Requisicao de ('127.0.0.1', 54428) para http://inf.ufg.br/misc/drupal.js?Q
+21:15:55,833 proxy INFO Cache MISS: http://inf.ufg.br/misc/drupal.js?Q
+21:15:55,823 proxy INFO Requisicao de ('127.0.0.1', 54476) para http://inf.ufg.br/modules/system/system.css?Q
+21:15:55,833 proxy INFO Cache HIT: http://inf.ufg.br/modules/system/system.css?Q
+21:15:55,826 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/modules/date/date_popup/themes/datepicker.css?Q
+21:15:55,825 proxy INFO Requisicao de ('127.0.0.1', 54474) para http://inf.ufg.br/sites/all/modules/text_resize/muda_contraste.js?Q
+21:15:55,822 proxy INFO Requisicao de ('127.0.0.1', 54486) para http://inf.ufg.br/modules/system/defaults.css?Q
+21:15:55,834 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/modules/text_resize/muda_contraste.js?Q
+21:15:55,835 proxy INFO Cache HIT: http://inf.ufg.br/modules/system/defaults.css?Q
+21:15:55,885 proxy INFO Requisicao de ('127.0.0.1', 54538) para http://inf.ufg.br/sites/all/modules/ctools/css/ctools.css?Q
+21:15:55,885 proxy INFO Cache HIT: http://inf.ufg.br/sites/all/modules/ctools/css/ctools.css?Q
+21:15:55,886 proxy INFO Requisicao de ('127.0.0.1', 54534) para http://inf.ufg.br/sites/all/modules/views/css/views.css?Q
+21:15:55,886 proxy INFO Cache HIT: http://inf.ufg.br/sites/all/modules/views/css/views.css?Q
+21:15:55,888 proxy INFO Requisicao de ('127.0.0.1', 54536) para http://inf.ufg.br/sites/all/modules/filefield-backup/filefield.css?Q
+21:15:55,888 proxy INFO Cache HIT: http://inf.ufg.br/sites/all/modules/filefield-backup/filefield.css?Q
+21:15:55,924 proxy INFO Requisicao de ('127.0.0.1', 54542) para http://inf.ufg.br/sites/all/libraries/superfish/jquery.hoverIntent.minified.js?Q
+21:15:55,924 proxy INFO Cache HIT: http://inf.ufg.br/sites/all/libraries/superfish/jquery.hoverIntent.minified.js?Q
+21:15:55,957 proxy INFO Requisicao de ('127.0.0.1', 54550) para http://inf.ufg.br/sites/all/modules/text_resize/jquery.cookie.js?Q
+21:15:55,957 proxy INFO Requisicao de ('127.0.0.1', 54546) para http://inf.ufg.br/sites/all/modules/superfish/superfish.js?Q
+21:15:55,957 proxy INFO Cache HIT: http://inf.ufg.br/sites/all/modules/text_resize/jquery.cookie.js?Q
+21:15:55,960 proxy INFO Cache HIT: http://inf.ufg.br/sites/all/modules/superfish/superfish.js?Q
+21:15:55,962 proxy INFO Requisicao de ('127.0.0.1', 54554) para http://inf.ufg.br/sites/all/modules/text_resize/text_resize.js?Q
+21:15:55,966 proxy INFO Cache HIT: http://inf.ufg.br/sites/all/modules/text_resize/text_resize.js?Q
+21:15:56,837 proxy INFO Requisicao de ('127.0.0.1', 54430) para http://inf.ufg.br/sites/all/modules/lightbox2/js/lightbox.js?Q
+21:15:56,839 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/modules/lightbox2/js/lightbox.js?Q
+21:15:56,838 proxy INFO Requisicao de ('127.0.0.1', 54436) para http://inf.ufg.br/sites/all/libraries/superfish/jquery.bgiframe.min.js?Q
+21:15:56,841 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/libraries/superfish/jquery.bgiframe.min.js?Q
+21:15:56,838 proxy INFO Requisicao de ('127.0.0.1', 54434) para http://inf.ufg.br/sites/all/libraries/superfish/superfish.js?Q
+21:15:56,842 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/libraries/superfish/superfish.js?Q
+21:15:56,850 proxy INFO Requisicao de ('127.0.0.1', 54432) para http://inf.ufg.br/sites/all/modules/lightbox2/css/lightbox.css?Q
+21:15:56,851 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/modules/lightbox2/css/lightbox.css?Q
+21:16:10,955 proxy DEBUG 244 bytes armazenados - capacidade atual: 9926227
+21:16:10,956 proxy DEBUG 245 bytes armazenados - capacidade atual: 9925982
+21:16:10,960 proxy DEBUG 244 bytes armazenados - capacidade atual: 9925738
+21:16:10,982 proxy DEBUG 244 bytes armazenados - capacidade atual: 9925494
+21:16:11,7 proxy DEBUG 245 bytes armazenados - capacidade atual: 9925249
+21:16:11,20 proxy DEBUG 243 bytes armazenados - capacidade atual: 9925006
+21:16:11,39 proxy DEBUG 244 bytes armazenados - capacidade atual: 9924762
+21:16:11,40 proxy DEBUG 244 bytes armazenados - capacidade atual: 9924518
+21:16:11,57 proxy DEBUG 246 bytes armazenados - capacidade atual: 9924272
+21:16:11,93 proxy DEBUG 245 bytes armazenados - capacidade atual: 9924027
+21:16:11,469 proxy DEBUG 244 bytes armazenados - capacidade atual: 9923783
+21:16:12,491 proxy DEBUG 246 bytes armazenados - capacidade atual: 9923537
+21:16:13,516 proxy DEBUG 245 bytes armazenados - capacidade atual: 9923292
+21:16:13,517 proxy DEBUG 243 bytes armazenados - capacidade atual: 9923049
+21:16:13,519 proxy DEBUG 245 bytes armazenados - capacidade atual: 9922804
+21:16:13,520 proxy DEBUG 246 bytes armazenados - capacidade atual: 9922558
+21:16:13,822 proxy DEBUG 245 bytes armazenados - capacidade atual: 9922313
+21:16:14,435 proxy DEBUG 245 bytes armazenados - capacidade atual: 9922068
+21:16:14,438 proxy DEBUG 245 bytes armazenados - capacidade atual: 9921823
+21:16:14,444 proxy DEBUG 245 bytes armazenados - capacidade atual: 9921578
+21:16:14,445 proxy DEBUG 245 bytes armazenados - capacidade atual: 9921333
+21:16:14,445 proxy DEBUG 245 bytes armazenados - capacidade atual: 9921088
+21:16:14,446 proxy DEBUG 244 bytes armazenados - capacidade atual: 9920844
+21:16:14,454 proxy DEBUG 244 bytes armazenados - capacidade atual: 9920600
+21:16:14,460 proxy DEBUG 244 bytes armazenados - capacidade atual: 9920356
+21:16:15,563 proxy DEBUG 245 bytes armazenados - capacidade atual: 9920111
+21:16:15,564 proxy DEBUG 245 bytes armazenados - capacidade atual: 9919866
+21:16:15,566 proxy DEBUG 245 bytes armazenados - capacidade atual: 9919621
+21:16:15,567 proxy DEBUG 245 bytes armazenados - capacidade atual: 9919376
+21:16:15,578 proxy INFO Requisicao de ('127.0.0.1', 54566) para http://inf.ufg.br/sites/default/files/favicon.ico
+21:16:15,579 proxy INFO Cache HIT: http://inf.ufg.br/sites/default/files/favicon.ico
+21:16:16,43 proxy INFO Requisicao de ('127.0.0.1', 54572) para http://inf.ufg.br/sites/default/files/marca-inf.png
+21:16:16,46 proxy INFO Cache MISS: http://inf.ufg.br/sites/default/files/marca-inf.png
+21:16:16,59 proxy INFO Requisicao de ('127.0.0.1', 54574) para http://inf.ufg.br/sites/default/files/pixture_reloaded_logo.png
+21:16:16,60 proxy INFO Cache MISS: http://inf.ufg.br/sites/default/files/pixture_reloaded_logo.png
+21:16:16,81 proxy INFO Requisicao de ('127.0.0.1', 54602) para http://inf.ufg.br/files/uploads/baile_ufg_2018_banner-01.png
+21:16:16,81 proxy INFO Cache MISS: http://inf.ufg.br/files/uploads/baile_ufg_2018_banner-01.png
+21:16:16,82 proxy INFO Requisicao de ('127.0.0.1', 54604) para http://inf.ufg.br/files/uploads/banner-caaf-cip-assedio-moral-sexual.png
+21:16:16,84 proxy INFO Cache MISS: http://inf.ufg.br/files/uploads/banner-caaf-cip-assedio-moral-sexual.png
+21:16:16,82 proxy INFO Requisicao de ('127.0.0.1', 54610) para http://inf.ufg.br/sites/all/modules/text_resize/a_reset.gif
+21:16:16,82 proxy INFO Requisicao de ('127.0.0.1', 54600) para http://inf.ufg.br/themes/pixture_reloaded/images/icone-acessibilidade-2.png
+21:16:16,85 proxy INFO Cache MISS: http://inf.ufg.br/themes/pixture_reloaded/images/icone-acessibilidade-2.png
+21:16:16,83 proxy INFO Requisicao de ('127.0.0.1', 54620) para http://inf.ufg.br/sites/all/modules/text_resize/aBig.gif
+21:16:16,85 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/modules/text_resize/aBig.gif
+21:16:16,82 proxy INFO Requisicao de ('127.0.0.1', 54614) para http://inf.ufg.br/files/uploads/banner_18JSG.png
+21:16:16,84 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/modules/text_resize/a_reset.gif
+21:16:16,82 proxy INFO Requisicao de ('127.0.0.1', 54608) para http://inf.ufg.br/sites/default/files/marca-ufg.png
+21:16:16,95 proxy INFO Cache MISS: http://inf.ufg.br/sites/default/files/marca-ufg.png
+21:16:16,83 proxy INFO Requisicao de ('127.0.0.1', 54606) para http://inf.ufg.br/files/uploads/foto-Adailton-sede-ANP-app-OlhoNaBomba.jpg
+21:16:16,93 proxy INFO Requisicao de ('127.0.0.1', 54612) para http://inf.ufg.br/sites/all/modules/text_resize/aSmall.gif
+21:16:16,94 proxy INFO Cache MISS: http://inf.ufg.br/files/uploads/banner_18JSG.png
+21:16:16,94 proxy INFO Requisicao de ('127.0.0.1', 54622) para http://inf.ufg.br/themes/pixture_reloaded/images/contraste-small.png
+21:16:16,97 proxy INFO Cache MISS: http://inf.ufg.br/themes/pixture_reloaded/images/contraste-small.png
+21:16:16,97 proxy INFO Cache MISS: http://inf.ufg.br/files/uploads/foto-Adailton-sede-ANP-app-OlhoNaBomba.jpg
+21:16:16,97 proxy INFO Cache MISS: http://inf.ufg.br/sites/all/modules/text_resize/aSmall.gif
+21:16:16,90 proxy INFO Requisicao de ('127.0.0.1', 54618) para http://inf.ufg.br/files/uploads/Fintech.png
+21:16:16,98 proxy INFO Cache MISS: http://inf.ufg.br/files/uploads/Fintech.png
+21:16:31,230 proxy DEBUG 244 bytes armazenados - capacidade atual: 9919132
+21:16:31,230 proxy DEBUG 245 bytes armazenados - capacidade atual: 9918887
+21:16:31,237 proxy DEBUG 245 bytes armazenados - capacidade atual: 9918642
+21:16:31,251 proxy DEBUG 246 bytes armazenados - capacidade atual: 9918396
+21:16:31,263 proxy DEBUG 246 bytes armazenados - capacidade atual: 9918150
+21:16:31,276 proxy DEBUG 244 bytes armazenados - capacidade atual: 9917906
+21:16:31,293 proxy DEBUG 244 bytes armazenados - capacidade atual: 9917662
+21:16:31,308 proxy DEBUG 245 bytes armazenados - capacidade atual: 9917417
+21:16:31,326 proxy DEBUG 246 bytes armazenados - capacidade atual: 9917171
+21:16:31,340 proxy DEBUG 246 bytes armazenados - capacidade atual: 9916925
+21:16:31,370 proxy DEBUG 244 bytes armazenados - capacidade atual: 9916681
+21:16:31,374 proxy DEBUG 244 bytes armazenados - capacidade atual: 9916437
+21:16:31,400 proxy DEBUG 246 bytes armazenados - capacidade atual: 9916191
+21:19:27,881 proxy INFO Requisicao de ('127.0.0.1', 54864) para http://www.motherfuckingwebsite.com/
+21:19:27,893 proxy INFO Cache MISS: http://www.motherfuckingwebsite.com/
+21:19:38,578 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+21:19:39,436 proxy INFO Requisicao de ('127.0.0.1', 54870) para http://www.motherfuckingwebsite.com/favicon.ico
+21:19:39,436 proxy INFO Cache MISS: http://www.motherfuckingwebsite.com/favicon.ico
+21:19:50,88 proxy DEBUG 332 bytes armazenados - capacidade atual: 9996949
+21:20:13,911 proxy INFO Requisicao de ('127.0.0.1', 54876) para http://www.motherfuckingwebsite.com/
+21:20:13,912 proxy INFO Cache HIT: http://www.motherfuckingwebsite.com/
+21:20:14,338 proxy INFO Requisicao de ('127.0.0.1', 54880) para http://www.motherfuckingwebsite.com/favicon.ico
+21:20:14,338 proxy INFO Cache HIT: http://www.motherfuckingwebsite.com/favicon.ico
+21:20:20,112 proxy INFO Requisicao de ('127.0.0.1', 54884) para http://www.motherfuckingwebsite.com/
+21:20:20,113 proxy INFO Cache HIT: http://www.motherfuckingwebsite.com/
+21:20:20,554 proxy INFO Requisicao de ('127.0.0.1', 54888) para http://www.motherfuckingwebsite.com/favicon.ico
+21:20:20,556 proxy INFO Cache HIT: http://www.motherfuckingwebsite.com/favicon.ico
+21:20:22,513 proxy INFO Requisicao de ('127.0.0.1', 54892) para http://www.motherfuckingwebsite.com/
+21:20:22,514 proxy INFO Cache HIT: http://www.motherfuckingwebsite.com/
+21:20:23,34 proxy INFO Requisicao de ('127.0.0.1', 54896) para http://www.motherfuckingwebsite.com/favicon.ico
+21:20:23,34 proxy INFO Cache HIT: http://www.motherfuckingwebsite.com/favicon.ico
