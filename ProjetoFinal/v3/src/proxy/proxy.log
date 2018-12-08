@@ -1,0 +1,702 @@
+08:15:36,242 root INFO Requisicao de ('127.0.0.1', 44058) para http://www.motherfuckingwebsite.com/
+08:15:36,243 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+08:15:47,266 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+08:15:56,480 root INFO Requisicao de ('127.0.0.1', 44066) para http://www.motherfuckingwebsite.com/
+08:15:56,480 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+08:16:18,328 root INFO Requisicao de ('127.0.0.1', 44074) para http://www.motherfuckingwebsite.com/
+08:16:18,329 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+08:16:18,350 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+08:16:35,46 root INFO Requisicao de ('127.0.0.1', 58856) para http://www.motherfuckingwebsite.com/
+08:16:35,46 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+08:16:54,329 root INFO Requisicao de ('127.0.0.1', 44092) para http://inf.ufg.br/
+08:16:54,329 root INFO Cache MISS: http://inf.ufg.br/
+08:16:55,289 proxy DEBUG 39177 bytes armazenados - capacidade atual: 9960687
+08:21:57,240 root INFO Requisicao de ('127.0.0.1', 58936) para http://inf.ufg.br/
+08:21:57,241 root INFO Cache MISS: http://inf.ufg.br/
+08:21:59,117 proxy DEBUG 39177 bytes armazenados - capacidade atual: 9960822
+08:23:34,0 root INFO Requisicao de ('127.0.0.1', 58966) para http://www.motherfuckingwebsite.com/
+08:23:34,1 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+08:23:44,675 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+08:24:37,480 root INFO Requisicao de ('127.0.0.1', 44216) para http://www.motherfuckingwebsite.com/
+08:24:37,481 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+08:24:47,971 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+08:24:52,752 root INFO Requisicao de ('127.0.0.1', 44224) para http://www.motherfuckingwebsite.com/
+08:24:52,753 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+08:25:07,341 root INFO Requisicao de ('127.0.0.1', 59006) para http://www.motherfuckingwebsite.com/
+08:25:07,342 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+08:25:17,949 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+08:25:32,414 root INFO Requisicao de ('127.0.0.1', 59018) para http://www.motherfuckingwebsite.com/
+08:25:32,414 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+08:25:40,6 root INFO Requisicao de ('127.0.0.1', 44252) para http://www.motherfuckingwebsite.com/
+08:25:40,6 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+08:26:01,786 root INFO Requisicao de ('127.0.0.1', 59034) para http://www.motherfuckingwebsite.com/
+08:26:01,787 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+08:26:14,796 root INFO Requisicao de ('127.0.0.1', 44268) para http://inf.ufg.br/
+08:26:14,796 root INFO Cache MISS: http://inf.ufg.br/
+08:26:15,647 proxy DEBUG 39177 bytes armazenados - capacidade atual: 9960687
+08:28:02,30 root INFO Requisicao de ('127.0.0.1', 59064) para http://inf.ufg.br/
+08:28:02,31 root INFO Cache MISS: http://inf.ufg.br/
+08:28:03,545 proxy DEBUG 39177 bytes armazenados - capacidade atual: 9960822
+08:32:55,219 root INFO Requisicao de ('127.0.0.1', 44400) para http://www.motherfuckingwebsite.com/
+08:32:55,220 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+08:33:05,704 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+08:33:16,929 root INFO Requisicao de ('127.0.0.1', 44410) para http://www.motherfuckingwebsite.com/
+08:33:16,930 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+08:33:16,930 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+08:33:32,12 root INFO Requisicao de ('127.0.0.1', 40076) para http://www.motherfuckingwebsite.com/
+08:33:32,12 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+08:33:42,578 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+08:34:46,436 root INFO Requisicao de ('127.0.0.1', 59210) para http://www.motherfuckingwebsite.com/
+08:34:46,437 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+08:35:02,521 root INFO Requisicao de ('127.0.0.1', 59218) para http://www.motherfuckingwebsite.com/
+08:35:02,522 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+08:35:21,191 root INFO Requisicao de ('127.0.0.1', 59228) para http://www.motherfuckingwebsite.com/
+08:35:21,192 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+08:35:25,779 root INFO Requisicao de ('127.0.0.1', 59234) para http://www.motherfuckingwebsite.com/
+08:35:25,780 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+07:56:22,453 root INFO Requisicao de ('127.0.0.1', 33072) para http://www.motherfuckingwebsite.com/
+07:56:22,453 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+07:56:33,393 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+07:57:13,449 root INFO Requisicao de ('127.0.0.1', 34106) para http://www.motherfuckingwebsite.com/
+07:57:13,449 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+07:57:24,635 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+08:00:39,869 root INFO Requisicao de ('127.0.0.1', 34136) para http://www.motherfuckingwebsite.com/
+08:00:39,869 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+08:00:50,460 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+08:00:50,466 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+08:01:34,91 root INFO Requisicao de ('127.0.0.1', 41904) para http://www.motherfuckingwebsite.com/
+08:01:34,91 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+08:01:37,711 root INFO Requisicao de ('127.0.0.1', 34154) para http://www.motherfuckingwebsite.com/
+08:01:37,711 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+08:04:14,191 root INFO Requisicao de ('127.0.0.1', 34170) para http://www.motherfuckingwebsite.com/
+08:04:14,191 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+08:04:30,743 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+08:47:13,551 root INFO Requisicao de ('127.0.0.1', 34316) para http://www.motherfuckingwebsite.com/
+08:47:13,551 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+08:47:24,344 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+08:57:46,803 root INFO Requisicao de ('127.0.0.1', 36102) para http://www.motherfuckingwebsite.com/
+08:57:46,803 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+08:57:57,489 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+08:58:27,817 root INFO Requisicao de ('127.0.0.1', 36120) para http://www.motherfuckingwebsite.com/
+08:58:27,817 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+08:58:38,440 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+08:59:46,265 root INFO Requisicao de ('127.0.0.1', 36142) para http://www.motherfuckingwebsite.com/
+08:59:46,265 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+08:59:56,979 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+09:00:13,785 root INFO Requisicao de ('127.0.0.1', 43910) para http://www.motherfuckingwebsite.com/
+09:00:13,786 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+09:00:24,651 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+09:00:43,363 root INFO Requisicao de ('127.0.0.1', 43920) para http://www.motherfuckingwebsite.com/
+09:00:43,363 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+09:01:01,720 root INFO Requisicao de ('127.0.0.1', 43934) para http://www.motherfuckingwebsite.com/
+09:01:01,721 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+09:01:12,506 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+12:58:20,428 root INFO Requisicao de ('127.0.0.1', 41616) para http://detectportal.firefox.com/success.txt
+12:58:20,429 root INFO Cache MISS: http://detectportal.firefox.com/success.txt
+13:00:52,729 root INFO Requisicao de ('127.0.0.1', 41668) para http://www.motherfuckingwebsite.com/favicon.ico
+13:00:52,730 root INFO Cache MISS: http://www.motherfuckingwebsite.com/favicon.ico
+13:01:04,107 proxy DEBUG 332 bytes armazenados - capacidade atual: 9999667
+13:03:57,824 root INFO Requisicao de ('127.0.0.1', 38804) para http://www.motherfuckingwebsite.com/
+13:03:57,825 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+13:04:08,452 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+13:24:32,145 root INFO Requisicao de ('127.0.0.1', 41808) para http://www.motherfuckingwebsite.com/
+13:24:32,145 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+13:24:42,687 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+13:25:29,355 root INFO Requisicao de ('127.0.0.1', 42848) para http://www.motherfuckingwebsite.com/
+13:25:29,356 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+13:25:29,394 root INFO Requisicao de ('127.0.0.1', 42854) para http://detectportal.firefox.com/success.txt
+13:25:29,394 root INFO Cache MISS: http://detectportal.firefox.com/success.txt
+13:26:16,539 root INFO Requisicao de ('127.0.0.1', 43900) para http://www.motherfuckingwebsite.com/
+13:26:16,539 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+13:26:27,655 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+13:26:29,405 root INFO Requisicao de ('127.0.0.1', 43910) para http://www.motherfuckingwebsite.com/favicon.ico
+13:26:29,406 root INFO Cache MISS: http://www.motherfuckingwebsite.com/favicon.ico
+13:26:29,408 root INFO Requisicao de ('127.0.0.1', 43914) para http://detectportal.firefox.com/success.txt
+13:26:29,408 root INFO Cache MISS: http://detectportal.firefox.com/success.txt
+13:26:39,875 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999729
+23:43:47,839 root INFO Requisicao de ('127.0.0.1', 44960) para http://www.motherfuckingwebsite.com/favicon.ico
+23:43:47,881 root INFO Cache MISS: http://www.motherfuckingwebsite.com/favicon.ico
+23:43:59,229 proxy DEBUG 332 bytes armazenados - capacidade atual: 9999667
+23:46:40,999 root INFO Requisicao de ('127.0.0.1', 46016) para http://www.motherfuckingwebsite.com/
+23:46:41,0 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+23:46:51,688 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+23:47:05,883 root INFO Requisicao de ('127.0.0.1', 46024) para http://www.motherfuckingwebsite.com/
+23:47:05,883 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+23:47:12,651 root INFO Requisicao de ('127.0.0.1', 46030) para http://www.motherfuckingwebsite.com/
+23:47:12,651 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+10:30:33,572 root INFO Requisicao de ('127.0.0.1', 33938) para http://www.motherfuckingwebsite.com/
+10:30:33,596 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+10:30:44,786 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+10:30:44,791 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+10:30:52,66 root INFO Requisicao de ('127.0.0.1', 35156) para http://www.motherfuckingwebsite.com/
+10:30:52,67 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+10:30:56,846 root INFO Requisicao de ('127.0.0.1', 42210) para http://www.motherfuckingwebsite.com/
+10:30:56,846 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+10:31:05,812 root INFO Requisicao de ('127.0.0.1', 35204) para http://www.motherfuckingwebsite.com/
+10:31:05,814 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+10:32:04,33 root INFO Requisicao de ('127.0.0.1', 42296) para http://www.motherfuckingwebsite.com/
+10:32:04,33 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+10:32:14,716 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+10:37:33,311 root INFO Requisicao de ('127.0.0.1', 35306) para http://www.motherfuckingwebsite.com/
+10:37:33,312 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+10:37:43,980 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+10:37:48,123 root INFO Requisicao de ('127.0.0.1', 35314) para http://www.motherfuckingwebsite.com/
+10:37:48,125 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+10:37:59,421 root INFO Requisicao de ('127.0.0.1', 42362) para http://www.motherfuckingwebsite.com/
+10:37:59,421 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+10:38:10,88 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+10:38:29,249 root INFO Requisicao de ('127.0.0.1', 35336) para http://www.motherfuckingwebsite.com/
+10:38:29,249 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+11:46:27,112 root INFO Requisicao de ('127.0.0.1', 35964) para http://www.motherfuckingwebsite.com/
+11:46:27,132 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+11:46:37,820 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+11:46:47,984 root INFO Requisicao de ('127.0.0.1', 35974) para http://www.motherfuckingwebsite.com/
+11:46:47,984 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+11:47:01,536 root INFO Requisicao de ('127.0.0.1', 36002) para http://www.motherfuckingwebsite.com/
+11:47:01,537 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+11:47:37,142 root INFO Requisicao de ('127.0.0.1', 36014) para http://www.motherfuckingwebsite.com/
+11:47:37,143 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+11:47:50,766 root INFO Requisicao de ('127.0.0.1', 36024) para http://www.motherfuckingwebsite.com/
+11:47:50,772 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+11:48:13,259 root INFO Requisicao de ('127.0.0.1', 41894) para http://www.motherfuckingwebsite.com/
+11:48:13,260 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+11:48:24,206 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+11:48:39,774 root INFO Requisicao de ('127.0.0.1', 41948) para http://www.motherfuckingwebsite.com/favicon.ico
+11:48:39,774 root INFO Cache MISS: http://www.motherfuckingwebsite.com/favicon.ico
+11:48:50,403 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999729
+11:48:50,404 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999729
+11:49:03,747 root INFO Requisicao de ('127.0.0.1', 36170) para http://inf.ufg.br/
+11:49:03,748 root INFO Cache MISS: http://inf.ufg.br/
+11:49:04,863 proxy DEBUG 37501 bytes armazenados - capacidade atual: 9962228
+11:49:49,806 root INFO Requisicao de ('127.0.0.1', 42098) para http://www.motherfuckingwebsite.com/
+11:49:49,808 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+11:50:00,456 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+11:50:00,457 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+12:03:52,461 root INFO Requisicao de ('127.0.0.1', 57390) para http://www.motherfuckingwebsite.com/
+12:03:52,461 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+12:04:27,188 root INFO Requisicao de ('127.0.0.1', 57398) para http://www.motherfuckingwebsite.com/
+12:04:27,188 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+12:13:28,464 root INFO Requisicao de ('127.0.0.1', 54208) para http://www.motherfuckingwebsite.com/
+12:13:28,464 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+12:13:44,305 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+12:14:34,157 root INFO Requisicao de ('127.0.0.1', 54264) para http://www.motherfuckingwebsite.com/
+12:14:34,157 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+12:14:47,187 root INFO Requisicao de ('127.0.0.1', 54274) para http://www.motherfuckingwebsite.com/
+12:14:47,187 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+12:19:15,307 root INFO Requisicao de ('127.0.0.1', 54310) para http://www.motherfuckingwebsite.com/
+12:19:15,308 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+12:19:26,3 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+12:19:51,35 root INFO Requisicao de ('127.0.0.1', 54324) para http://www.motherfuckingwebsite.com/
+12:19:51,36 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+12:20:01,739 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+12:22:35,351 root INFO Requisicao de ('127.0.0.1', 55576) para http://www.motherfuckingwebsite.com/
+12:22:35,352 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+12:29:28,50 root INFO Requisicao de ('127.0.0.1', 36378) para http://www.motherfuckingwebsite.com/
+12:29:28,50 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+12:29:38,744 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+12:29:44,894 root INFO Requisicao de ('127.0.0.1', 36388) para http://www.motherfuckingwebsite.com/
+12:29:44,894 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+12:32:30,471 root INFO Requisicao de ('127.0.0.1', 36446) para http://www.motherfuckingwebsite.com/
+12:32:30,471 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+12:32:41,117 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+12:33:36,941 root INFO Requisicao de ('127.0.0.1', 36454) para http://www.motherfuckingwebsite.com/
+12:33:36,941 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+12:33:51,126 root INFO Requisicao de ('127.0.0.1', 36488) para http://www.motherfuckingwebsite.com/
+12:33:51,126 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+12:34:00,823 root INFO Requisicao de ('127.0.0.1', 36500) para http://www.motherfuckingwebsite.com/
+12:34:00,823 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+12:34:14,744 root INFO Requisicao de ('127.0.0.1', 36510) para http://www.motherfuckingwebsite.com/
+12:34:14,745 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+12:34:26,416 root INFO Requisicao de ('127.0.0.1', 42380) para http://www.motherfuckingwebsite.com/
+12:34:26,417 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+12:34:46,450 proxy DEBUG 2745 bytes armazenados - capacidade atual: 9997254
+12:35:41,84 root INFO Requisicao de ('127.0.0.1', 42400) para http://www.motherfuckingwebsite.com/
+12:35:41,85 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+12:36:09,243 root INFO Requisicao de ('127.0.0.1', 36554) para http://www.motherfuckingwebsite.com/
+12:36:09,243 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+12:36:19,941 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+12:37:51,356 root INFO Requisicao de ('127.0.0.1', 42452) para http://www.motherfuckingwebsite.com/
+12:37:51,357 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+12:38:02,31 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+12:38:25,727 root INFO Requisicao de ('127.0.0.1', 36608) para http://www.motherfuckingwebsite.com/
+12:38:25,727 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+12:38:36,437 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+12:38:44,585 root INFO Requisicao de ('127.0.0.1', 42480) para http://www.motherfuckingwebsite.com/
+12:38:44,585 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+12:39:03,696 root INFO Requisicao de ('127.0.0.1', 42498) para http://www.motherfuckingwebsite.com/
+12:39:03,697 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+12:39:08,937 root INFO Requisicao de ('127.0.0.1', 36650) para http://www.motherfuckingwebsite.com/
+12:39:08,937 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+12:39:43,151 root INFO Requisicao de ('127.0.0.1', 42574) para http://www.motherfuckingwebsite.com/
+12:39:43,152 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+12:39:58,890 root INFO Requisicao de ('127.0.0.1', 36728) para http://www.motherfuckingwebsite.com/
+12:39:58,891 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+12:40:10,573 root INFO Requisicao de ('127.0.0.1', 36740) para http://www.motherfuckingwebsite.com/
+12:40:10,573 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+12:42:16,896 root INFO Requisicao de ('127.0.0.1', 42682) para http://www.motherfuckingwebsite.com/
+12:42:16,897 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+12:42:27,481 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+12:42:33,331 root INFO Requisicao de ('127.0.0.1', 36834) para http://www.motherfuckingwebsite.com/
+12:42:33,332 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+12:42:44,141 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+12:45:04,610 root INFO Requisicao de ('127.0.0.1', 36986) para http://www.motherfuckingwebsite.com/
+12:45:04,610 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+12:45:15,206 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+12:45:33,817 root INFO Requisicao de ('127.0.0.1', 37002) para http://www.motherfuckingwebsite.com/
+12:45:33,817 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+12:45:33,821 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+12:45:39,885 root INFO Requisicao de ('127.0.0.1', 42874) para http://www.motherfuckingwebsite.com/
+12:45:39,890 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+12:45:51,139 root INFO Requisicao de ('127.0.0.1', 42888) para http://www.motherfuckingwebsite.com/
+12:45:51,139 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+12:47:21,115 root INFO Requisicao de ('127.0.0.1', 36700) para http://www.motherfuckingwebsite.com/
+12:47:21,116 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+12:47:32,189 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+14:13:24,950 root INFO Requisicao de ('127.0.0.1', 40936) para http://www.motherfuckingwebsite.com/
+14:13:24,966 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+14:13:36,94 proxy DEBUG 2745 bytes armazenados - capacidade atual: 9997254
+14:14:03,228 root INFO Requisicao de ('127.0.0.1', 40952) para http://www.motherfuckingwebsite.com/
+14:14:03,229 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+14:14:13,551 root INFO Requisicao de ('127.0.0.1', 40960) para http://www.motherfuckingwebsite.com/
+14:14:13,551 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+14:14:23,59 root INFO Requisicao de ('127.0.0.1', 35108) para http://www.motherfuckingwebsite.com/
+14:14:23,59 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+14:14:33,743 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+14:17:13,941 root INFO Requisicao de ('127.0.0.1', 40998) para http://www.motherfuckingwebsite.com/
+14:17:13,942 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+14:17:24,642 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+14:17:29,241 root INFO Requisicao de ('127.0.0.1', 41010) para http://www.motherfuckingwebsite.com/
+14:17:29,241 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+14:17:37,325 root INFO Requisicao de ('127.0.0.1', 41024) para http://www.motherfuckingwebsite.com/
+14:17:37,326 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+14:17:42,151 root INFO Requisicao de ('127.0.0.1', 41034) para http://www.motherfuckingwebsite.com/
+14:17:42,151 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+14:17:51,435 root INFO Requisicao de ('127.0.0.1', 41042) para http://www.motherfuckingwebsite.com/
+14:17:51,436 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+14:17:51,440 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+14:17:55,739 root INFO Requisicao de ('127.0.0.1', 35198) para http://www.motherfuckingwebsite.com/
+14:17:55,739 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+14:17:58,352 root INFO Requisicao de ('127.0.0.1', 35210) para http://www.motherfuckingwebsite.com/
+14:17:58,352 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+14:18:51,941 root INFO Requisicao de ('127.0.0.1', 41138) para http://www.motherfuckingwebsite.com/
+14:18:51,942 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+14:18:59,580 root INFO Requisicao de ('127.0.0.1', 41146) para http://www.motherfuckingwebsite.com/
+14:18:59,580 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+14:19:02,741 root INFO Requisicao de ('127.0.0.1', 41154) para http://www.motherfuckingwebsite.com/
+14:19:02,741 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+14:20:07,369 root INFO Requisicao de ('127.0.0.1', 41252) para http://www.motherfuckingwebsite.com/
+14:20:07,370 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+14:20:14,536 root INFO Requisicao de ('127.0.0.1', 41260) para http://www.motherfuckingwebsite.com/
+14:20:14,536 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+14:20:17,393 root INFO Requisicao de ('127.0.0.1', 41272) para http://www.motherfuckingwebsite.com/
+14:20:17,393 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+14:23:46,785 root INFO Requisicao de ('127.0.0.1', 41368) para http://www.motherfuckingwebsite.com/
+14:23:46,785 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+14:23:57,542 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+14:24:01,780 root INFO Requisicao de ('127.0.0.1', 35520) para http://www.motherfuckingwebsite.com/
+14:24:01,781 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+14:24:12,488 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+14:24:28,41 root INFO Requisicao de ('127.0.0.1', 41398) para http://www.motherfuckingwebsite.com/
+14:24:28,41 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+14:24:37,14 root INFO Requisicao de ('127.0.0.1', 41408) para http://www.motherfuckingwebsite.com/
+14:24:37,14 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+14:24:41,829 root INFO Requisicao de ('127.0.0.1', 41420) para http://www.motherfuckingwebsite.com/
+14:24:41,829 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+14:24:45,869 root INFO Requisicao de ('127.0.0.1', 35572) para http://www.motherfuckingwebsite.com/
+14:24:45,870 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+14:24:45,872 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+14:24:57,776 root INFO Requisicao de ('127.0.0.1', 41450) para http://www.motherfuckingwebsite.com/
+14:24:57,776 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:20:07,882 root INFO Requisicao de ('127.0.0.1', 36736) para http://www.motherfuckingwebsite.com/
+17:20:07,882 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+17:20:18,949 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+17:20:50,108 root INFO Requisicao de ('127.0.0.1', 36754) para http://www.motherfuckingwebsite.com/
+17:20:50,109 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:20:50,110 root INFO Requisicao de ('127.0.0.1', 36756) para http://detectportal.firefox.com/success.txt
+17:20:50,110 root INFO Cache MISS: http://detectportal.firefox.com/success.txt
+17:21:13,618 root INFO Requisicao de ('127.0.0.1', 39494) para http://www.motherfuckingwebsite.com/
+17:21:13,618 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:21:21,497 root INFO Requisicao de ('127.0.0.1', 39506) para http://www.motherfuckingwebsite.com/
+17:21:21,498 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:21:31,324 root INFO Requisicao de ('127.0.0.1', 39514) para http://www.motherfuckingwebsite.com/
+17:21:31,325 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:21:36,984 root INFO Requisicao de ('127.0.0.1', 39522) para http://www.motherfuckingwebsite.com/
+17:21:36,984 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:21:40,164 root INFO Requisicao de ('127.0.0.1', 39534) para http://www.motherfuckingwebsite.com/
+17:21:40,164 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:21:42,254 root INFO Requisicao de ('127.0.0.1', 39544) para http://www.motherfuckingwebsite.com/
+17:21:42,254 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:22:53,16 root INFO Requisicao de ('127.0.0.1', 39566) para http://www.motherfuckingwebsite.com/
+17:22:53,16 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+17:23:03,682 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+17:23:32,601 root INFO Requisicao de ('127.0.0.1', 39638) para http://www.motherfuckingwebsite.com/
+17:23:32,602 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:23:54,433 root INFO Requisicao de ('127.0.0.1', 39652) para http://www.motherfuckingwebsite.com/
+17:23:54,434 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:24:00,113 root INFO Requisicao de ('127.0.0.1', 39658) para http://www.motherfuckingwebsite.com/
+17:24:00,113 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:24:17,152 root INFO Requisicao de ('127.0.0.1', 39676) para http://www.motherfuckingwebsite.com/
+17:24:17,153 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:24:17,155 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+17:24:46,428 root INFO Requisicao de ('127.0.0.1', 39706) para http://www.motherfuckingwebsite.com/
+17:24:46,428 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:25:13,619 root INFO Requisicao de ('127.0.0.1', 39716) para http://www.motherfuckingwebsite.com/
+17:25:13,620 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:25:19,466 root INFO Requisicao de ('127.0.0.1', 39732) para http://www.motherfuckingwebsite.com/
+17:25:19,466 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:25:30,843 root INFO Requisicao de ('127.0.0.1', 39742) para http://www.motherfuckingwebsite.com/
+17:25:30,844 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:25:38,756 root INFO Requisicao de ('127.0.0.1', 39756) para http://www.motherfuckingwebsite.com/
+17:25:38,757 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:25:42,15 root INFO Requisicao de ('127.0.0.1', 39768) para http://www.motherfuckingwebsite.com/
+17:25:42,15 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:25:44,612 root INFO Requisicao de ('127.0.0.1', 45640) para http://www.motherfuckingwebsite.com/
+17:25:44,612 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:25:46,567 root INFO Requisicao de ('127.0.0.1', 39792) para http://www.motherfuckingwebsite.com/
+17:25:46,567 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:25:50,310 root INFO Requisicao de ('127.0.0.1', 39806) para http://www.motherfuckingwebsite.com/
+17:25:50,311 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:25:52,72 root INFO Requisicao de ('127.0.0.1', 45676) para http://www.motherfuckingwebsite.com/
+17:25:52,72 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:34:36,33 root INFO Requisicao de ('127.0.0.1', 40072) para http://www.motherfuckingwebsite.com/
+17:34:36,34 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+17:34:46,697 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+17:34:52,792 root INFO Requisicao de ('127.0.0.1', 40082) para http://www.motherfuckingwebsite.com/
+17:34:52,793 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:35:20,259 root INFO Requisicao de ('127.0.0.1', 40094) para http://www.motherfuckingwebsite.com/
+17:35:20,263 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:35:27,398 root INFO Requisicao de ('127.0.0.1', 40106) para http://www.motherfuckingwebsite.com/
+17:35:27,399 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:35:38,455 root INFO Requisicao de ('127.0.0.1', 40116) para http://www.motherfuckingwebsite.com/
+17:35:38,456 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:35:38,459 proxy DEBUG 2718 bytes armazenados - capacidade atual: 9997281
+17:35:43,425 root INFO Requisicao de ('127.0.0.1', 40126) para http://www.motherfuckingwebsite.com/
+17:35:43,425 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:35:47,606 root INFO Requisicao de ('127.0.0.1', 46002) para http://www.motherfuckingwebsite.com/
+17:35:47,607 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:36:01,707 root INFO Requisicao de ('127.0.0.1', 46018) para http://lighsite.com/
+17:36:01,708 root INFO Cache MISS: http://lighsite.com/
+17:36:02,579 proxy DEBUG 1081 bytes armazenados - capacidade atual: 9996200
+17:37:29,413 root INFO Requisicao de ('127.0.0.1', 46070) para http://lighsite.com/
+17:37:29,413 root INFO Cache MISS: http://lighsite.com/
+17:37:29,946 proxy DEBUG 1081 bytes armazenados - capacidade atual: 9998918
+17:37:30,332 root INFO Requisicao de ('127.0.0.1', 46084) para http://dnserros.oi.com.br/main?ParticipantID=387ydcy3wgfiu5h66pkijuq457pwuyg5&FailedURI=http%3A%2F%2Flighsite.com%2F&FailureMode=1&Implementation=&AddInType=4&Version=pywr1.0&ClientLocation=br
+17:37:30,333 root INFO Cache MISS: http://dnserros.oi.com.br/main?ParticipantID=387ydcy3wgfiu5h66pkijuq457pwuyg5&FailedURI=http%3A%2F%2Flighsite.com%2F&FailureMode=1&Implementation=&AddInType=4&Version=pywr1.0&ClientLocation=br
+17:37:30,489 root INFO Requisicao de ('127.0.0.1', 46092) para http://lighsite.com/favicon.ico
+17:37:30,490 root INFO Cache MISS: http://lighsite.com/favicon.ico
+17:37:31,363 proxy DEBUG 1103 bytes armazenados - capacidade atual: 9997815
+17:37:32,77 proxy DEBUG 10394 bytes armazenados - capacidade atual: 9987421
+17:37:32,633 root INFO Requisicao de ('127.0.0.1', 46134) para http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/scripts/libs/owl.carousel.min.js
+17:37:32,635 root INFO Cache MISS: http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/scripts/libs/owl.carousel.min.js
+17:37:32,634 root INFO Requisicao de ('127.0.0.1', 46140) para http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/images/oi_games_PRO.jpg
+17:37:32,636 root INFO Cache MISS: http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/images/oi_games_PRO.jpg
+17:37:32,634 root INFO Requisicao de ('127.0.0.1', 46132) para http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/scripts/core.min.js
+17:37:32,635 root INFO Requisicao de ('127.0.0.1', 46144) para http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/images/P_te_ligou_PRO.jpg
+17:37:32,649 root INFO Cache MISS: http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/images/P_te_ligou_PRO.jpg
+17:37:32,638 root INFO Cache MISS: http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/scripts/core.min.js
+17:37:32,651 root INFO Requisicao de ('127.0.0.1', 46148) para http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/images/te_ligou_PRO.jpg
+17:37:32,652 root INFO Cache MISS: http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/images/te_ligou_PRO.jpg
+17:37:32,652 root INFO Requisicao de ('127.0.0.1', 46146) para http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/images/oi_idiomas_busuu.jpg
+17:37:32,652 root INFO Cache MISS: http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/images/oi_idiomas_busuu.jpg
+17:37:32,648 root INFO Requisicao de ('127.0.0.1', 46142) para http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/styles/core.css
+17:37:32,653 root INFO Cache MISS: http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/styles/core.css
+17:37:32,654 root INFO Requisicao de ('127.0.0.1', 46166) para http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/images/P_oi_games_PRO.jpg
+17:37:32,654 root INFO Cache MISS: http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/images/P_oi_games_PRO.jpg
+17:37:32,655 root INFO Requisicao de ('127.0.0.1', 46164) para http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/images/oi_expert.jpg
+17:37:32,655 root INFO Cache MISS: http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/images/oi_expert.jpg
+17:37:32,656 root INFO Requisicao de ('127.0.0.1', 46160) para http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/images/P_oi_expert.jpg
+17:37:32,656 root INFO Cache MISS: http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/images/P_oi_expert.jpg
+17:37:32,660 root INFO Requisicao de ('127.0.0.1', 46168) para http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/images/P_oi_idiomas_busuu.jpg
+17:37:32,660 root INFO Cache MISS: http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/images/P_oi_idiomas_busuu.jpg
+17:37:32,660 root INFO Requisicao de ('127.0.0.1', 46162) para http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/scripts/libs/jquery-1.12.0.min.js
+17:37:32,662 root INFO Cache MISS: http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/scripts/libs/jquery-1.12.0.min.js
+17:37:43,134 proxy DEBUG 36923 bytes armazenados - capacidade atual: 9950498
+17:37:43,135 proxy DEBUG 40710 bytes armazenados - capacidade atual: 9909788
+17:37:43,141 proxy DEBUG 809 bytes armazenados - capacidade atual: 9908979
+17:37:43,161 proxy DEBUG 13194 bytes armazenados - capacidade atual: 9895785
+17:37:43,180 proxy DEBUG 38180 bytes armazenados - capacidade atual: 9857605
+17:37:43,204 proxy DEBUG 43260 bytes armazenados - capacidade atual: 9814345
+17:37:43,217 proxy DEBUG 40869 bytes armazenados - capacidade atual: 9773476
+17:37:43,221 proxy DEBUG 97672 bytes armazenados - capacidade atual: 9675804
+17:37:43,851 proxy DEBUG 196976 bytes armazenados - capacidade atual: 9478828
+17:37:43,852 proxy DEBUG 238746 bytes armazenados - capacidade atual: 9240082
+17:37:44,158 proxy DEBUG 192078 bytes armazenados - capacidade atual: 9048004
+17:37:45,592 proxy DEBUG 252819 bytes armazenados - capacidade atual: 8795185
+17:37:59,703 root INFO Requisicao de ('127.0.0.1', 46260) para http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/fonts/simplonbp-regular-webfont.woff
+17:37:59,704 root INFO Cache MISS: http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/fonts/simplonbp-regular-webfont.woff
+17:37:59,704 root INFO Requisicao de ('127.0.0.1', 46246) para http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/images/favicon.ico
+17:37:59,705 root INFO Cache MISS: http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/images/favicon.ico
+17:37:59,723 root INFO Requisicao de ('127.0.0.1', 46262) para http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/fonts/simplonoi-headline-webfont.woff2
+17:37:59,723 root INFO Cache MISS: http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/fonts/simplonoi-headline-webfont.woff2
+17:37:59,723 root INFO Requisicao de ('127.0.0.1', 46252) para http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/images/logo-yh.png
+17:37:59,724 root INFO Cache MISS: http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/images/logo-yh.png
+17:37:59,727 root INFO Requisicao de ('127.0.0.1', 46238) para http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/images/logo-oi.png
+17:37:59,728 root INFO Cache MISS: http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/images/logo-oi.png
+17:38:00,413 root INFO Requisicao de ('127.0.0.1', 46290) para http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/styles/core.css.map
+17:38:00,413 root INFO Cache MISS: http://dnserros.oi.com.br/partnerdata/387ydcy3wgfiu5h66pkijuq457pwuyg5/styles/core.css.map
+17:38:10,168 proxy DEBUG 4689 bytes armazenados - capacidade atual: 8790496
+17:38:10,169 proxy DEBUG 1200 bytes armazenados - capacidade atual: 8789296
+17:38:10,170 proxy DEBUG 1492 bytes armazenados - capacidade atual: 8787804
+17:38:10,171 proxy DEBUG 21845 bytes armazenados - capacidade atual: 8765959
+17:38:10,172 proxy DEBUG 14780 bytes armazenados - capacidade atual: 8751179
+17:38:10,885 proxy DEBUG 515 bytes armazenados - capacidade atual: 8750664
+17:38:38,40 root INFO Requisicao de ('127.0.0.1', 46340) para http://www.motherfuckingwebsite.com/
+17:38:38,41 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+17:39:10,911 root INFO Requisicao de ('127.0.0.1', 46394) para http://dnserros.oi.com.br/index
+17:39:10,912 root INFO Cache MISS: http://dnserros.oi.com.br/index
+17:39:22,615 root INFO Requisicao de ('127.0.0.1', 50342) para http://www.motherfuckingwebsite.com/
+17:39:22,615 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+17:39:40,91 proxy DEBUG 2718 bytes armazenados - capacidade atual: 8747946
+17:41:20,788 root INFO Requisicao de ('127.0.0.1', 50472) para http://www.motherfuckingwebsite.com/
+17:41:20,788 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:41:30,820 root INFO Requisicao de ('127.0.0.1', 50494) para http://www.motherfuckingwebsite.com/favicon.ico
+17:41:30,822 root INFO Cache MISS: http://www.motherfuckingwebsite.com/favicon.ico
+17:41:42,344 proxy DEBUG 135 bytes armazenados - capacidade atual: 8747811
+17:42:04,975 root INFO Requisicao de ('127.0.0.1', 50588) para http://www.motherfuckingwebsite.com/
+17:42:04,975 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:42:20,626 root INFO Requisicao de ('127.0.0.1', 50608) para http://www.motherfuckingwebsite.com/
+17:42:20,631 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:42:29,683 root INFO Requisicao de ('127.0.0.1', 50634) para http://www.motherfuckingwebsite.com/
+17:42:29,684 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:42:37,880 root INFO Requisicao de ('127.0.0.1', 50642) para http://www.motherfuckingwebsite.com/
+17:42:37,880 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:42:40,676 root INFO Requisicao de ('127.0.0.1', 50654) para http://www.motherfuckingwebsite.com/
+17:42:40,677 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:42:42,331 root INFO Requisicao de ('127.0.0.1', 50662) para http://www.motherfuckingwebsite.com/
+17:42:42,331 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:42:43,873 root INFO Requisicao de ('127.0.0.1', 50672) para http://www.motherfuckingwebsite.com/
+17:42:43,874 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:42:44,991 root INFO Requisicao de ('127.0.0.1', 50686) para http://www.motherfuckingwebsite.com/favicon.ico
+17:42:44,992 root INFO Cache HIT: http://www.motherfuckingwebsite.com/favicon.ico
+17:42:49,183 root INFO Requisicao de ('127.0.0.1', 50704) para http://www.motherfuckingwebsite.com/
+17:42:49,183 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:42:53,897 root INFO Requisicao de ('127.0.0.1', 50712) para http://www.motherfuckingwebsite.com/
+17:42:53,897 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:43:11,528 root INFO Requisicao de ('127.0.0.1', 50726) para http://www.motherfuckingwebsite.com/
+17:43:11,528 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:43:32,330 root INFO Requisicao de ('127.0.0.1', 50780) para http://www.motherfuckingwebsite.com/
+17:43:32,331 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+17:43:43,75 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+17:43:52,108 root INFO Requisicao de ('127.0.0.1', 44934) para http://www.motherfuckingwebsite.com/
+17:43:52,109 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+17:44:02,736 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+17:44:09,214 root INFO Requisicao de ('127.0.0.1', 44950) para http://www.motherfuckingwebsite.com/favicon.ico
+17:44:09,215 root INFO Cache MISS: http://www.motherfuckingwebsite.com/favicon.ico
+17:44:19,939 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999729
+17:44:19,941 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999729
+17:44:38,972 root INFO Requisicao de ('127.0.0.1', 50844) para http://www.motherfuckingwebsite.com/
+17:44:38,972 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+17:44:49,737 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+17:44:57,386 root INFO Requisicao de ('127.0.0.1', 44994) para http://www.motherfuckingwebsite.com/
+17:44:57,387 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+17:45:13,290 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+17:45:25,542 root INFO Requisicao de ('127.0.0.1', 50872) para http://www.motherfuckingwebsite.com/
+17:45:25,542 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:45:28,171 root INFO Requisicao de ('127.0.0.1', 45022) para http://www.motherfuckingwebsite.com/
+17:45:28,172 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:45:30,746 root INFO Requisicao de ('127.0.0.1', 50896) para http://www.motherfuckingwebsite.com/
+17:45:30,747 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:45:33,372 root INFO Requisicao de ('127.0.0.1', 45048) para http://www.motherfuckingwebsite.com/
+17:45:33,373 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:46:00,812 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+17:46:00,816 root INFO Requisicao de ('127.0.0.1', 57554) para http://www.motherfuckingwebsite.com/
+17:46:00,816 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:46:07,892 root INFO Requisicao de ('127.0.0.1', 45136) para http://www.motherfuckingwebsite.com/
+17:46:07,892 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:46:10,436 root INFO Requisicao de ('127.0.0.1', 45158) para http://www.motherfuckingwebsite.com/
+17:46:10,436 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:46:12,269 root INFO Requisicao de ('127.0.0.1', 57626) para http://www.motherfuckingwebsite.com/
+17:46:12,269 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:47:04,908 root INFO Requisicao de ('127.0.0.1', 57652) para http://www.motherfuckingwebsite.com/favicon.ico
+17:47:04,914 root INFO Cache MISS: http://www.motherfuckingwebsite.com/favicon.ico
+17:47:15,659 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999729
+17:47:15,662 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999729
+17:47:15,664 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999729
+17:48:26,888 root INFO Requisicao de ('127.0.0.1', 51112) para http://www.motherfuckingwebsite.com/
+17:48:26,889 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+17:48:37,887 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+17:48:44,107 root INFO Requisicao de ('127.0.0.1', 51124) para http://www.motherfuckingwebsite.com/
+17:48:44,108 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:48:50,888 root INFO Requisicao de ('127.0.0.1', 51134) para http://www.motherfuckingwebsite.com/
+17:48:50,888 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:49:03,730 root INFO Requisicao de ('127.0.0.1', 51144) para http://www.motherfuckingwebsite.com/
+17:49:03,730 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:50:21,112 root INFO Requisicao de ('127.0.0.1', 51178) para http://www.motherfuckingwebsite.com/
+17:50:21,113 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+17:50:31,859 proxy DEBUG 162 bytes armazenados - capacidade atual: 9999837
+17:50:56,291 root INFO Requisicao de ('127.0.0.1', 51190) para http://www.motherfuckingwebsite.com/
+17:50:56,291 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:51:18,479 root INFO Requisicao de ('127.0.0.1', 51204) para http://www.motherfuckingwebsite.com/
+17:51:18,480 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:51:21,590 root INFO Requisicao de ('127.0.0.1', 51212) para http://www.motherfuckingwebsite.com/
+17:51:21,590 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:51:31,670 root INFO Requisicao de ('127.0.0.1', 57808) para http://www.motherfuckingwebsite.com/
+17:51:31,671 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+17:51:42,413 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+17:52:20,677 root INFO Requisicao de ('127.0.0.1', 51238) para http://www.motherfuckingwebsite.com/
+17:52:20,677 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:52:30,332 root INFO Requisicao de ('127.0.0.1', 57838) para http://www.motherfuckingwebsite.com/
+17:52:30,332 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:53:09,445 root INFO Requisicao de ('127.0.0.1', 58078) para http://www.motherfuckingwebsite.com/
+17:53:09,445 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:53:12,158 root INFO Requisicao de ('127.0.0.1', 58088) para http://www.motherfuckingwebsite.com/
+17:53:12,158 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:53:14,750 root INFO Requisicao de ('127.0.0.1', 58098) para http://www.motherfuckingwebsite.com/
+17:53:14,751 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:53:16,630 root INFO Requisicao de ('127.0.0.1', 58106) para http://www.motherfuckingwebsite.com/
+17:53:16,631 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:55:06,639 root INFO Requisicao de ('127.0.0.1', 58136) para http://www.motherfuckingwebsite.com/
+17:55:06,639 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+17:55:17,804 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+17:55:25,740 root INFO Requisicao de ('127.0.0.1', 58160) para http://www.motherfuckingwebsite.com/
+17:55:25,741 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:55:53,850 root INFO Requisicao de ('127.0.0.1', 58200) para http://www.motherfuckingwebsite.com/
+17:55:53,850 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+17:56:04,989 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+17:56:08,152 root INFO Requisicao de ('127.0.0.1', 58214) para http://www.motherfuckingwebsite.com/
+17:56:08,152 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+17:56:14,43 root INFO Requisicao de ('127.0.0.1', 51638) para http://www.motherfuckingwebsite.com/
+17:56:14,43 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+17:56:24,748 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+17:56:31,710 root INFO Requisicao de ('127.0.0.1', 51654) para http://www.motherfuckingwebsite.com/
+17:56:31,710 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+08:10:02,655 root INFO Requisicao de ('127.0.0.1', 47082) para http://www.motherfuckingwebsite.com/
+08:10:02,679 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+08:10:13,550 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+08:10:13,554 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+08:10:37,36 root INFO Requisicao de ('127.0.0.1', 47098) para http://www.motherfuckingwebsite.com/
+08:10:37,36 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+08:10:41,516 root INFO Requisicao de ('127.0.0.1', 41760) para http://www.motherfuckingwebsite.com/
+08:10:41,516 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+08:10:44,457 root INFO Requisicao de ('127.0.0.1', 41774) para http://www.motherfuckingwebsite.com/
+08:10:44,457 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+08:11:51,43 root INFO Requisicao de ('127.0.0.1', 41800) para http://www.motherfuckingwebsite.com/
+08:11:51,43 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+08:12:01,542 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+08:12:16,462 root INFO Requisicao de ('127.0.0.1', 41838) para http://www.motherfuckingwebsite.com/
+08:12:16,463 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+08:12:31,66 root INFO Requisicao de ('127.0.0.1', 47200) para http://www.motherfuckingwebsite.com/
+08:12:31,73 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+08:12:41,648 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+08:12:48,741 root INFO Requisicao de ('127.0.0.1', 47212) para http://www.motherfuckingwebsite.com/
+08:12:48,741 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+08:36:16,753 root INFO Requisicao de ('127.0.0.1', 47320) para http://www.motherfuckingwebsite.com/
+08:36:16,754 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+08:36:49,897 root INFO Requisicao de ('127.0.0.1', 41988) para http://www.motherfuckingwebsite.com/
+08:36:49,899 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+08:41:30,559 root INFO Requisicao de ('127.0.0.1', 42036) para http://www.motherfuckingwebsite.com/
+08:41:30,560 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+08:41:41,493 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+08:42:23,347 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+08:42:23,350 root INFO Requisicao de ('127.0.0.1', 42048) para http://www.motherfuckingwebsite.com/
+08:42:23,351 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+08:43:11,82 root INFO Requisicao de ('127.0.0.1', 47438) para http://www.motherfuckingwebsite.com/
+08:43:11,82 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+08:43:21,917 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+08:54:25,213 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+08:54:25,216 root INFO Requisicao de ('127.0.0.1', 47450) para http://www.motherfuckingwebsite.com/favicon.ico
+08:54:25,216 root INFO Cache MISS: http://www.motherfuckingwebsite.com/favicon.ico
+08:54:25,218 root INFO Requisicao de ('127.0.0.1', 42112) para http://detectportal.firefox.com/success.txt
+08:54:25,218 root INFO Cache MISS: http://detectportal.firefox.com/success.txt
+08:54:30,730 root INFO Requisicao de ('127.0.0.1', 47528) para http://detectportal.firefox.com/success.txt
+08:54:30,731 root INFO Cache MISS: http://detectportal.firefox.com/success.txt
+08:54:35,929 proxy DEBUG 162 bytes armazenados - capacidade atual: 9999702
+09:02:19,281 root INFO Requisicao de ('127.0.0.1', 56406) para http://www.motherfuckingwebsite.com/
+09:02:19,282 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+09:02:27,75 root INFO Requisicao de ('127.0.0.1', 51066) para http://www.motherfuckingwebsite.com/
+09:02:27,76 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+09:02:46,386 proxy DEBUG 384 bytes armazenados - capacidade atual: 9999480
+09:02:49,348 proxy DEBUG 384 bytes armazenados - capacidade atual: 9999318
+09:02:49,348 root INFO Requisicao de ('127.0.0.1', 56428) para http://www.motherfuckingwebsite.com/
+09:02:49,348 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+09:02:51,320 proxy DEBUG 384 bytes armazenados - capacidade atual: 9998934
+09:02:57,453 root INFO Requisicao de ('127.0.0.1', 56438) para http://www.motherfuckingwebsite.com/
+09:02:57,453 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+09:03:02,283 root INFO Requisicao de ('127.0.0.1', 56452) para http://www.motherfuckingwebsite.com/
+09:03:02,283 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+09:03:03,68 root INFO Requisicao de ('127.0.0.1', 56464) para http://www.motherfuckingwebsite.com/
+09:03:03,68 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+09:03:03,71 proxy DEBUG 162 bytes armazenados - capacidade atual: 9999318
+09:03:03,320 root INFO Requisicao de ('127.0.0.1', 56476) para http://www.motherfuckingwebsite.com/
+09:03:03,320 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+09:03:11,884 root INFO Requisicao de ('127.0.0.1', 56488) para http://www.motherfuckingwebsite.com/
+09:03:11,884 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+09:03:12,618 root INFO Requisicao de ('127.0.0.1', 51152) para http://www.motherfuckingwebsite.com/
+09:03:12,618 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+09:03:13,750 root INFO Requisicao de ('127.0.0.1', 51168) para http://www.motherfuckingwebsite.com/
+09:03:13,751 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+09:03:24,692 root INFO Requisicao de ('127.0.0.1', 56532) para http://www.motherfuckingwebsite.com/
+09:03:24,692 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+10:12:47,556 root INFO Requisicao de ('127.0.0.1', 37840) para http://detectportal.firefox.com/success.txt
+10:12:47,666 root INFO Cache MISS: http://detectportal.firefox.com/success.txt
+10:13:21,79 root INFO Requisicao de ('127.0.0.1', 41906) para http://detectportal.firefox.com/success.txt
+10:13:21,83 root INFO Cache MISS: http://detectportal.firefox.com/success.txt
+10:13:22,192 root INFO Requisicao de ('127.0.0.1', 41914) para http://www.motherfuckingwebsite.com/
+10:13:22,193 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+10:13:53,776 root INFO Requisicao de ('127.0.0.1', 46066) para http://www.motherfuckingwebsite.com/
+10:13:53,777 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+10:14:21,71 root INFO Requisicao de ('127.0.0.1', 46078) para http://detectportal.firefox.com/success.txt
+10:14:21,71 root INFO Cache MISS: http://detectportal.firefox.com/success.txt
+10:14:21,92 root INFO Requisicao de ('127.0.0.1', 46100) para http://www.motherfuckingwebsite.com/
+10:14:21,93 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+10:17:19,200 root INFO Requisicao de ('127.0.0.1', 49726) para http://www.motherfuckingwebsite.com/
+10:17:19,200 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+10:17:22,163 root INFO Requisicao de ('127.0.0.1', 49738) para http://detectportal.firefox.com/success.txt
+10:17:22,163 root INFO Cache MISS: http://detectportal.firefox.com/success.txt
+10:17:41,793 root INFO Requisicao de ('127.0.0.1', 51638) para http://www.motherfuckingwebsite.com/
+10:17:41,794 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+10:17:48,507 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+10:18:49,564 root INFO Requisicao de ('127.0.0.1', 51706) para http://www.motherfuckingwebsite.com/
+10:18:49,565 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+10:19:01,779 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+10:19:07,657 root INFO Requisicao de ('127.0.0.1', 51718) para http://www.motherfuckingwebsite.com/
+10:19:07,658 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+10:19:12,407 root INFO Requisicao de ('127.0.0.1', 51726) para http://www.motherfuckingwebsite.com/
+10:19:12,407 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+10:19:23,780 root INFO Requisicao de ('127.0.0.1', 51740) para http://www.motherfuckingwebsite.com/
+10:19:23,780 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+10:19:28,831 root INFO Requisicao de ('127.0.0.1', 51750) para http://www.motherfuckingwebsite.com/
+10:19:28,831 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+10:19:31,748 root INFO Requisicao de ('127.0.0.1', 37478) para http://www.motherfuckingwebsite.com/
+10:19:31,748 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+10:21:20,767 root INFO Requisicao de ('127.0.0.1', 55720) para http://www.motherfuckingwebsite.com/
+10:21:20,767 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+10:21:31,904 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+10:21:39,27 root INFO Requisicao de ('127.0.0.1', 55732) para http://www.motherfuckingwebsite.com/
+10:21:39,28 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+10:21:39,28 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+10:21:56,828 root INFO Requisicao de ('127.0.0.1', 55744) para http://www.motherfuckingwebsite.com/
+10:21:56,828 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+10:22:06,543 root INFO Requisicao de ('127.0.0.1', 41474) para http://www.motherfuckingwebsite.com/
+10:22:06,544 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+10:34:44,446 root INFO Requisicao de ('127.0.0.1', 55782) para http://www.motherfuckingwebsite.com/favicon.ico
+10:34:44,446 root INFO Cache MISS: http://www.motherfuckingwebsite.com/favicon.ico
+10:34:56,110 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999729
+10:34:56,113 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999729
+10:38:24,647 root INFO Requisicao de ('127.0.0.1', 55828) para http://www.motherfuckingwebsite.com/
+10:38:24,647 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+10:38:38,64 proxy DEBUG 162 bytes armazenados - capacidade atual: 9999837
+10:38:41,659 root INFO Requisicao de ('127.0.0.1', 55840) para http://www.motherfuckingwebsite.com/
+10:38:41,660 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+10:38:53,347 root INFO Requisicao de ('127.0.0.1', 55852) para http://www.motherfuckingwebsite.com/
+10:38:53,347 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+10:39:01,795 root INFO Requisicao de ('127.0.0.1', 55862) para http://www.motherfuckingwebsite.com/
+10:39:01,796 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+10:39:05,453 root INFO Requisicao de ('127.0.0.1', 41592) para http://www.motherfuckingwebsite.com/
+10:39:05,460 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+10:41:48,298 root INFO Requisicao de ('127.0.0.1', 55900) para http://www.motherfuckingwebsite.com/
+10:41:48,299 root INFO Cache MISS: http://www.motherfuckingwebsite.com/
+10:42:06,8 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+10:42:09,962 root INFO Requisicao de ('127.0.0.1', 55912) para http://www.motherfuckingwebsite.com/
+10:42:09,962 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+10:42:09,964 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+10:42:17,844 root INFO Requisicao de ('127.0.0.1', 41642) para http://www.motherfuckingwebsite.com/
+10:42:17,845 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+10:42:56,291 proxy DEBUG 135 bytes armazenados - capacidade atual: 9999864
+10:42:56,294 root INFO Requisicao de ('127.0.0.1', 41700) para http://www.motherfuckingwebsite.com/
+10:42:56,295 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+10:43:19,575 root INFO Requisicao de ('127.0.0.1', 41714) para http://www.motherfuckingwebsite.com/
+10:43:19,575 root INFO Cache HIT: http://www.motherfuckingwebsite.com/
+10:43:33,220 root INFO Requisicao de ('127.0.0.1', 41736) para http://inf.ufg.br/
+10:43:33,220 root INFO Cache MISS: http://inf.ufg.br/
+10:43:46,672 proxy DEBUG 36994 bytes armazenados - capacidade atual: 9962870
