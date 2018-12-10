@@ -19,7 +19,7 @@ SEND_RECEIVE_CONF.key="ctv4eys984cavpavt5snldbkrw3"
 SEND_RECEIVE_CONF.last_recipient="localhost"
 SEND_RECEIVE_CONF.last_port= 23208
 SEND_RECEIVE_CONF.hashfunction= hashlib.sha1
-SEND_RECEIVE_CONF.hashsize= 160 / 8 #SHA1 - 160 BITS
+SEND_RECEIVE_CONF.hashsize= 160 / 8 
 SEND_RECEIVE_CONF.magic= 'sendreceive'
 SEND_RECEIVE_CONF.buffer= 8192
 
@@ -49,13 +49,12 @@ class ServidorProxy():
 		try:
 			alertS = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 			alertS.connect(("localhost", 54322))
-			# A mensagem de controle para o proxy pode ser avisando que o middleware esteve off, ou somente um ACK comum
+			
 			tupla = {'port': port, 'host': host }
 			msg = {'status': status, 'tupla': tupla, 'update': bit}
 			alertS.send(json.dumps(msg))
 			if status == 'up':
 				peerResponse = json.loads(alertS.recv(self.buffer_size))
-				#print "[Middleware] ACK de resposta do middleware: {}".format(peerResponse)
 				return peerResponse
 		except Exception as e:
 			raise e
@@ -162,7 +161,6 @@ class ServidorProxy():
 				try:
 					msg = {'cache': self.cache, 'peerList': self.peerList}
 					self.send(msg, t['host'], t['port']*2)
-					#print "[P2P] Dados enviados para ({}, {})".format(t['host'], t['port'])
 				except Exception as e:
 					print "Sem acesso ao proxy \nPorta: {}\tHost: {}\n".format(t['port'], t['host'])
 					self.peerList.remove(t)
@@ -196,14 +194,12 @@ class ServidorProxy():
 		urlInRecvCache = recv_cache.returnKeys()
 		
 		#Verificar se as url estão presentes no cache local
-		#caso estiver ignorar, caso contrário inserir no cache
+		#caso estiver ignorar, caso contrário inserir na cache
 		for url in urlInRecvCache:
 			if not self.cache.existingUrl(url):
 				response = recv_cache.getData(url)
 				self.cache.cachePush(url, response)
 				print "\n[P2P] Objeto %s adicionado ao cache\n" % (url)
-			#else:
-				#print "\n[P2P] Objeto %s já está atualizado\n"%(url)
 			
 	def send(self, obj, host = None, port = None):
 
@@ -229,7 +225,7 @@ class ServidorProxy():
 
 		try:
 			conn, addr = self.p2pSocket.accept()
-			#print '[P2P] Conexão com {}'.format(addr)
+
 		except socket.error as e:
 			self.p2pSocket.close()
 			raise e
@@ -257,8 +253,7 @@ class ServidorProxy():
 			if i not in self.peerList:
 				self.peerList.append(i)
 				print '[P2P] lista de proxies atualizados\n\t Antes: {}\n\t Depois: {}'.format(antes, self.peerList)
-
-		#print '[P2P] {} enviou seu cache'.format(addr)
+	
 		return obj['cache']
 
 

@@ -35,7 +35,6 @@ class MiddleWare(object):
 			self.ACK_message() #ACK
 			sock.send(data)
 			response = sock.recv(self.buffer_size)
-			# TUDO ERRADO AQUI
 			self.ACK_message() #ACK
 			conn.send(response)
 			conn.close()
@@ -138,7 +137,7 @@ class MiddleWare(object):
 			print e
 			sock.close()
 			return
-		#print self.proxy_list
+
 		self.read_list = [sock]
 		while True:
 			
