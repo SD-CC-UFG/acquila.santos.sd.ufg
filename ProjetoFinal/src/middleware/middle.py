@@ -106,8 +106,6 @@ class MiddleWare(object):
 				msg = {'update': bitVerify, 'list': self.proxy_list}
 				connection.send(json.dumps(msg))
 
-				#print "{} enviou uma lista de peers: {}".format(address, self.proxy_list)
-			#### OLHAR - PODE SER REMOVIDA ESSA PARRTE?????? #####
 			if recv_data['status'] == 'down':
 				if self.removeL(recv_data['port']):
 					print "Nó ({},{}) saiu.\nNova lista de conexões: {} ".format(proxy_tuple['host'], proxy_tuple['port'], self.proxy_list) 
