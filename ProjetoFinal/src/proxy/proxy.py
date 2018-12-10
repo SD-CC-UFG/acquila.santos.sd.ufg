@@ -19,7 +19,7 @@ SEND_RECEIVE_CONF.key="ctv4eys984cavpavt5snldbkrw3"
 SEND_RECEIVE_CONF.last_recipient="localhost"
 SEND_RECEIVE_CONF.last_port= 23208
 SEND_RECEIVE_CONF.hashfunction= hashlib.sha1
-SEND_RECEIVE_CONF.hashsize= 160 / 8 #sha1 has 160 bits
+SEND_RECEIVE_CONF.hashsize= 160 / 8 #SHA1 - 160 BITS
 SEND_RECEIVE_CONF.magic= 'sendreceive'
 SEND_RECEIVE_CONF.buffer= 8192
 
@@ -29,62 +29,83 @@ logging.basicConfig(format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(messa
 
 class ServidorProxy():
 	"""docstring for ServidorProxy"""
-	def __init__(self, port = 4321):
-		self.port = port
+	def __init__(self, port, host):
+		self.port = int(port)
+		self.host = host
+		self.tuple = {'host': self.host, 'port': self.port}
 		self.buffer_size = 8192*10
 		self.conexoes = 10
 		self.cacheSize = 9999999
 		self.cache = Cache(self.cacheSize)
-		self.host = "localhost"
+		self.bitVerify = 0x0
 		self.peerList = []
 		self.p2pSocket = None
 		print "|****************************************|"
 		print"|\tHTTP Proxy Server\t\t |\n|\tPort: %d\t\t\t |\n|\tCache Size: %ld\t\t |\n|\tHost: %s\t\t\t |" % (self.port, self.cacheSize, self.host)  
 		print "|****************************************|"
-		
-	def sendVerificationMessage(self, middlewareOff, port):
-		alertS = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-		alertS.connect(("localhost", 54322))
-		# A mensagem de controle para o proxy pode ser avisando que o middleware esteve off, ou somente um ACK comum
-		msg = {'middlewareOff': middlewareOff, 'status': 'up', 'port': port}
-		alertS.send(json.dumps(msg))
-		peerResponse = json.loads(alertS.recv(self.buffer_size))
-		print "[Middleware] ACK de resposta do middleware: {}".format(peerResponse)
-		return peerResponse
+	
+	def sendVerificationMessage(self, middlewareOff, status, port, host, bit):
+
+		try:
+			alertS = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+			alertS.connect(("localhost", 54322))
+			# A mensagem de controle para o proxy pode ser avisando que o middleware esteve off, ou somente um ACK comum
+			tupla = {'port': port, 'host': host }
+			msg = {'status': status, 'tupla': tupla, 'update': bit}
+			alertS.send(json.dumps(msg))
+			if status == 'up':
+				peerResponse = json.loads(alertS.recv(self.buffer_size))
+				#print "[Middleware] ACK de resposta do middleware: {}".format(peerResponse)
+				return peerResponse
+		except Exception as e:
+			raise e
+			return
 
 	def controlMessage(self):
 		
 		try:
-			peerResponse =  self.sendVerificationMessage(False, self.port)
-			self.peerList = peerResponse
+			if not self.tuple in self.peerList:
+						self.peerList.append(self.tuple)
+			peerResponse =  self.sendVerificationMessage(True, 'up', self.peerList, self.host, 0x0)
+			if peerResponse['update'] == 0x1:
+				print "\n[Middleware] Perda de conexão com algum membro do cluster"
+				for i in self.peerList:
+					if i not in peerResponse['list']:
+						self.peerList.remove(i)
+				print "Novo cluster: {}\n".format(self.peerList)
+
+			for i in peerResponse['list']:
+				if i not in self.peerList:
+					self.peerList.append(i)
+
+			self.p2pSend()
+
 		except Exception as e:
-			print "Middleware rejeitando conexoes"
-			peerResponse = None
+			if e is KeyboardInterrupt:
+				return
+
 			cont = 0
-			while peerResponse is None or cont < 100:
+			while cont < 100:
 				try:
-					if not self.port in self.peerList:
-						self.peerList.append(self.port)
-					peerResponse =  self.sendVerificationMessage(True, self.peerList)
+					if not self.tuple in self.peerList:
+						self.peerList.append(self.tuple)
+					peerResponse =  self.sendVerificationMessage(True, 'up', self.peerList, self.host, 0x0)
+					for i in peerResponse['list']:
+						if i not in self.peerList:
+							self.peerList.append(i)
+
 					self.p2pSend()
 					return
 				except socket.error as e:
 					cont += 1
-					print("Conexão Falhou: {}").format(e)
+					print("**Conexão Falhou: {}**").format(e)
 					print("Tentativa {} of 100").format(cont)
 					time.sleep(5)
 
 	def loopControl(self):
-		try:
-			while True:
-				self.controlMessage()
-		except KeyboardInterrupt as e:
-			alertS = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-			alertS.connect(("localhost", 54322))
-			msg = {'middlewareOff': False, 'status': 'shutdown', 'port': self.port}
-			alertS.send(json.dumps(msg))
-			raise e
-			
+		while True:
+			self.controlMessage()
+		
 	def loopReceive(self):
 		while True:
 			self.p2pReceive()
@@ -100,7 +121,7 @@ class ServidorProxy():
 
 			self.p2pSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 			self.p2pSocket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-			self.p2pSocket.bind(("localhost", self.port*2))
+			self.p2pSocket.bind((self.host, self.port*2))
 			self.p2pSocket.listen(3)
 			
 		except Exception, e:
@@ -108,52 +129,69 @@ class ServidorProxy():
 			sock.close()
 			print e
 			return
-		
 		try:
 			while True:
 				
 				start_new_thread(self.loopReceive, ())
 				start_new_thread(self.loopControl, ())
+				self.p2pSend()
 				try:
 					conn, addr = sock.accept()
 
 				except Exception as e:
-					print "Proxy encerrado"
+					self.peerList.remove(self.tuple)
+					self.p2pSend()
+					self.sendVerificationMessage(False, 'down', self.port, self.host, 0x0)
 					raise e
-					return
 			
 				data = conn.recv(self.buffer_size)
 				start_new_thread(self.requestHandler, (data, conn, addr))
 
-		except KeyboardInterrupt as e:
-			alertS = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-			alertS.connect(("localhost", 54322))
-			msg = {'middlewareOff': False, 'status': 'shutdown', 'port': self.port}
-			alertS.send(json.dumps(msg))
-			raise e
-			
+		except Exception as e:
+			print e
+			if e is KeyboardInterrupt:
+				self.peerList.remove(self.tuple)
+				self.p2pSend()
+				self.sendVerificationMessage(False, 'down', self.port, self.host, 0x0)
+		
+
 			
 	def p2pSend(self):
-		ports_bootstrap = [4321*2, 4322*2]
-		for i in self.peerList:
-			if i*2 != self.port*2:
+		for t in self.peerList:
+			if t != self.tuple:
 				try:
 					msg = {'cache': self.cache, 'peerList': self.peerList}
-					self.send(msg, "localhost", i*2)
-					pass
+					self.send(msg, t['host'], t['port']*2)
+					#print "[P2P] Dados enviados para ({}, {})".format(t['host'], t['port'])
 				except Exception as e:
-					raise e
+					print "Sem acesso ao proxy \nPorta: {}\tHost: {}\n".format(t['port'], t['host'])
+					self.peerList.remove(t)
+					peerResponse =  self.sendVerificationMessage(True, 'up', self.peerList, self.host, 0x1)
+					if peerResponse['update'] == 0x1:
+						print "\n[Middleware] Perda de conexão com algum membro do cluster"
+						for i in self.peerList:
+							if i not in peerResponse['list']:
+								self.peerList.remove(i)
+						print "Novo cluster: {}\n".format(self.peerList)
+
+					for i in peerResponse['list']:
+						if i not in self.peerList:
+							self.peerList.append(i)
+
+					self.p2pSend()
+					print "\nProxy removido do cluster\nEstado atual: {}".format(self.peerList)
+					print e
 					break
 
 	def p2pReceive(self):
-
+		recv_cache = ''
 		try:
 			recv_cache = self.receive()
 			if not recv_cache:
 				return
 		except Exception as e:
-			print "[P2P] Dados recebidos via conexão P2P corrompidos"
-		
+			pass
+
 		#Recuperar as url's do cache reccebido
 		urlInRecvCache = recv_cache.returnKeys()
 		
@@ -164,8 +202,8 @@ class ServidorProxy():
 				response = recv_cache.getData(url)
 				self.cache.cachePush(url, response)
 				print "\n[P2P] Objeto %s adicionado ao cache\n" % (url)
-			else:
-				print "\n[P2P] Objeto %s já está atualizado\n"%(url)
+			#else:
+				#print "\n[P2P] Objeto %s já está atualizado\n"%(url)
 			
 	def send(self, obj, host = None, port = None):
 
@@ -174,13 +212,13 @@ class ServidorProxy():
 		SRC.last_recipient= host
 		SRC.last_port= port
 		connection = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-		connection.connect( (host, port) )	
-		serialized= pickle.dumps( obj )
-		signature= hmac.new( SRC.key, serialized,  SRC.hashfunction).digest()
+		connection.connect((host, port))	
+		serialized= pickle.dumps(obj)
+		signature= hmac.new(SRC.key, serialized,  SRC.hashfunction).digest()
 		assert len(signature)==SRC.hashsize
 		message= SRC.magic + signature + serialized
-		connection.send( message )
-		response= connection.recv( SRC.buffer )
+		connection.send(message)
+		response= connection.recv(SRC.buffer)
 		if response!=SRC.magic:
 			raise Exception("Ack para comunicação corrompido")
 		connection.close()
@@ -191,7 +229,7 @@ class ServidorProxy():
 
 		try:
 			conn, addr = self.p2pSocket.accept()
-			print '[P2P] Conexão com {}'.format(addr)
+			#print '[P2P] Conexão com {}'.format(addr)
 		except socket.error as e:
 			self.p2pSocket.close()
 			raise e
@@ -220,7 +258,7 @@ class ServidorProxy():
 				self.peerList.append(i)
 				print '[P2P] lista de proxies atualizados\n\t Antes: {}\n\t Depois: {}'.format(antes, self.peerList)
 
-		print '[P2P] {} enviou seu cache'.format(addr)
+		#print '[P2P] {} enviou seu cache'.format(addr)
 		return obj['cache']
 
 
