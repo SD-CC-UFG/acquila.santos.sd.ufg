@@ -1,2 +1,1 @@
-# httpProxy
-A simple HTTP proxy server
+# Proxy HTTP distribuído
